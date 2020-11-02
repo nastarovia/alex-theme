@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Nosotros
+  link: /about
+- name: Contacto
+  link: /contact
+- name: Libros
+  link: /libros

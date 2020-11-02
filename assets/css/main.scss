@@ -1,0 +1,14 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+.content figure { margin-left: 0!important; margin-right: 0!important;  text-align: center;
+}
+$spacing-unit: 30px;
+
+@import "presets";
+@import "bulma";
+@import "syntax-highlighting";
+@import "line-awesome/scss/line-awesome";
+@import "overrides";

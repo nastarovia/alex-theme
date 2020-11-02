@@ -1,0 +1,24 @@
+
+
+{% assign books = site.data.books %}
+<section>
+<div class="columns is-multiline is-centered m-6">
+
+{% for item in books %}
+
+        <article class="column is-2">
+          <figure class="image is-2by3">
+            <a href="{{ site.baseurl }}/libros/{{ item.slug }}">
+            <img src="{{ item.cover }}"  />
+            </a>
+          </figure>
+          <div class="mt-1">
+          <p class="title is-size-6 has-text-centered">{{ item.book }}</p>
+          <p class="subtitle is-size-6 has-text-centered has-text-weight-light">{{ item.author }}</p>
+          </div>
+        </article>
+
+  {% endfor %}
+
+      </div>
+      </section>

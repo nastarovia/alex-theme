@@ -1,0 +1,35 @@
+{% assign books = site.data.books %}
+{% for item in books %}
+{% if item.book == page.title %}
+<div class="container ">
+<section class="columns mx-6 mt-3 mx-3-mobile " >
+
+  <div class="column is-4 has-margin-left-6 has-margin-1-mobile">
+
+          <figure class="image is-2by3 ">
+            <img src="{{ item.cover }}" alt="{{ item.book | prepend: "cubierta de" }}" />
+          </figure>
+  </div>
+  <div class="column is-6 has-margin-left-2-desktop has-margin-right-6-desktop has-margin-1-mobile has-text-centered-mobile">
+
+          <p class="title ">{{ item.book }}</p>
+          <p class="subtitle">{{ item.author }}</p>
+          <p class="content has-text-justified ">{{ item.description }}</p>
+  </div>
+  <div class="column is-2 ">
+    <div class="card">
+
+
+      <div class="card-content has-text-centered">
+
+            <p class="title is-4">{{ item.PVP}}</p>
+            <p class="subtitle is-6">Libro impreso</p>
+
+    </div>
+
+  </div>
+{% endif %}
+{% endfor %}
+
+</section>
+</div>
