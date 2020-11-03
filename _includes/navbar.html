@@ -1,4 +1,4 @@
-<nav class="navbar is-light">
+<nav class="navbar mg-6 is-light">
   <div class="container ">
     <div class="navbar-brand">
 
@@ -10,12 +10,12 @@
     </div>
     <div id="navbarMenuHeroA" class="navbar-menu ">
 
-      <div class="navbar">
+      <div class="navbar has-text-weight-semibold is-uppercase is-size-6">
 {% for item in site.data.navbar %}
-        <a href="{{item.link}}" class="navbar-item">{{ item.name }}</a>
+        <a href="{{item.link}}" class="navbar-item"> {{ item.name }} </a>
         {% endfor %}
         <span class="navbar-item">
-          <a class="button is-primary is-inverted">
+          <a class="has-text-weight-bold button is-primary is-inverted">
             <span class="icon">
               <i class="fab fa-github"></i>
             </span>

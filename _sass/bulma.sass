@@ -4,18 +4,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+$color: #d7c364;
 $family-sans-serif: 'Open Sans', sans-serif;
 $family-serif: 'Arvo', serif;
 $family-primary: $family-serif;
 $title-weight: 400;
 $subtitle-family: $family-sans-serif;
-$size-6: 1rem;
-$size-7: 0.87rem;
+$size-6: 0.925rem;
+$size-7: 0.725rem;
 
 .navbar { margin: auto!important;}
-.navbar-item {font-size: 1.2rem!important; font-family: $family-sans-serif;}
-
+.navbar-item {font-family: $family-sans-serif;}
+.author {font-family: $family-sans-serif;}
 $primary: #188eac !default;
 $hero-body-padding:  1.5rem !default
 $hero-body-padding-small: 0.5rem !default
@@ -25,8 +25,8 @@ $tabs-link-active-color: $primary;
 $tabs-link-active-border-bottom-color: $primary;
 $modal-content-width: 800px !default;
 
-.subtitle { color: #188eac!important ;}
-
+.subtitle, .author { color: #188eac!important ;}
+.book-info-container {font-family: $family-sans-serif;}
 
 
 @import "utilities/_all"

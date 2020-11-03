@@ -10,16 +10,29 @@
   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
 
 ;
-margin-top: 0px
+margin-top: 0px;
+box-sizing: content-box;
+
 }
 
-.card  {margin-top: 0px;}
-$spacing-unit: 30px;
-.subtitle { margin-top: -.85rem!important;}
+.section {margin-right: 5em; margin-left: 5em;}
 
-$section-book-info-padding:  0.75rem 0.25rem;
-.book-info-container .section {padding: $section-book-info-padding!important;}
-.book-info-container .section p {margin: $section-book-info-padding; }
+.content {margin-top: 1.5em;}
+
+.card  {margin-top: 0px;}
+
+$spacing-unit: 30px;
+
+.subtitle { margin-top: -.25rem!important;}
+p.author  {margin-top: 0.25rem!important; line-height: 1rem;}
+.gallery p.title  {margin: 1rem 0 0 0!important;}
+
+$section-book-info-padding:  1.5rem 0;
+
+
+.book-info-container  {margin: $section-book-info-padding; }
+.book-info-container p {line-height: 0.5rem!important; }
+
 @import "presets";
 @import "bulma";
 @import "syntax-highlighting";

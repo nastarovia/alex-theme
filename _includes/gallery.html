@@ -2,7 +2,7 @@
 
 {% assign books = site.data.books %}
 <section>
-<div class="columns is-multiline is-centered m-6">
+<div class="gallery columns is-multiline is-centered m-4">
 
 {% for item in books %}
 
@@ -14,9 +14,10 @@
             </a>
           </figure>
           </card>
-          <div class="mt-1">
-          <p class="title is-size-6 has-text-centered ">{{ item.book }}</p>
-          <p class="subtitle is-size-7 has-text-centered has-text-weight-normal">{{ item.author }}</p>
+
+          <div class="">
+          <p class="title is-size-6">{{ item.book }}</p>
+          <p class="author is-size-6 has-text-weight-normal">{{ item.author }}</p>
           </div>
 
           </article>
