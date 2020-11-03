@@ -1,48 +1,11 @@
 <footer class="footer">
-  <div class="columns">
-    <div class="column">
-      <h1 class="title is-size-4">Meta</h1>
-      <a href="#">Imprint</a>
-    </div>
 
-    <div class="column">
-      <h1 class="title is-size-4">Latest Posts</h1>
-      <ul>
-        {%- for post in site.posts limit:5 -%}
-          <li href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title | truncate: 35 }}
-          </li>
-        {%- endfor -%}
-      </ul>
-    </div>
-
-    <div class="column">
-      <h1 class="title title is-size-4">Title</h1>
-      <a href="#">Link</a>
-    </div>
-
-    <div class="column">
-      <h1 class="title title is-size-4">Title</h1>
-      <ul>
-        <li>
-          <span class="icon">
-            <i class="las la-envelope"></i>
-          </span>
-          mail@example.com
-        </li>
-        <li>
-          <span class="icon">
-            <i class="lab la-twitter"></i>
-          </span>
-          @twitter-handle
-        </li>
-      </ul>
-    </div>
-  </div>
-
+<div class="content">
       <div class="content has-text-centered">
-      <p> El contenido de esta web tiene licencia Creative Commons: <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-    </p>
+
+      <p class="subtitle"> Libros de la vorágine </div>
+      <p class="has-text-centered"> El contenido de esta web tiene licencia Creative Commons: <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.</p>
+  </div>
   </div>
 </footer>
 
