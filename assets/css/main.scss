@@ -15,6 +15,9 @@ margin: 10px
 $spacing-unit: 30px;
 .subtitle { margin-top: -.85rem!important;}
 
+$section-book-info-padding:  0.75rem 0.25rem;
+.book-info-container .section {padding: $section-book-info-padding!important;}
+.book-info-container .section p {margin: $section-book-info-padding; }
 @import "presets";
 @import "bulma";
 @import "syntax-highlighting";
