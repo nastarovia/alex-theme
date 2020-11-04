@@ -30,7 +30,7 @@
   Printed_book_format: 'Medidas: 180 x 110 mm'
   pages_number: '128 páginas'
   Ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
-  description: 
+  description:
     '«El año 1938 el Ministro de Educación de Uruguay organizó un curso de verano llamado «Curso sudamericano en la Universidad de Montevideo. A una de las sesiones fueron invitadas las mayores exponentes de la poesía del cono sur de ese momento: Juana de Ibarbourou, de Uruguay; Alfonsina Storni, de Argentina y Gabriela Mistral, de Chile, para hablar de su labor poética y explicar cómo escribían sus versos.»
     Texto fundacional del feminismo literario en lengua española, Ibarbourou, Storni y Mistral plantaron, sin acaso saberlo, la semilla de toda la poesía femenina latinoamericana posterior.
     «Son tres mujeres unidas en la historia de la poesía hispanoamericana bajo la tutela de la adelantada Delmira Agustini, la más agónica, que fue destruida por la red de prejuicios del Uruguay de 1914. Las tres sufrientes y heroicas, pagaron con su vida o su felicidad, la entrega a la Poesía.»
@@ -91,3 +91,58 @@
   description: 'La historia empezó el 24 de julio de 1998, “en un pequeño país del trópico que no nombraré por razones de seguridad, del mismo modo que debo obviar algunos nombres y lugares”. Imposible, pues, detallarlo todo. Contaré fragmentos del relato, sobre todo los que vuelven. Lo que realmente vale la pena es ver y escuchar a Anna Alarcón y leer el no menos estupendo texto de Aina Tur. Empezó con una pesadilla. La protagonista está prisionera, incapaz de levantarse de una silla, con un calor salvaje, que parece empapar realmente a Alarcón. Los mangos van cayendo y no se pueden comer. Una pesadilla en la que se une lo sensual, el aroma feroz de la fruta y el ansia de escapar. “Sabía que algún día contaría lo que pasó”, cuenta la narradora, “pero nunca encontraba el momento, el impulso, ni la valentía”. Tras colaborar con otra ONG, Tur y sus compañeros son asaltados por cinco jóvenes encapuchados, que corrían hacia ellos con pistolas y ametralladoras. Sigue: “Nos tuvieron cinco horas retenidos, descalzos (menos yo), las manos a la cabeza, encañonados. Dos pistolas. Dos fusiles de asalto: un AK47 y un M16. Yo era la única mujer. Nos guiaban a gritos, fuera del camino”. Pidió que no la torturasen durante días. Rezó. “A Dios. Sí, ya sé que no existe. Pero le pedí una violación rápida, no muy dolorosa, sin sangre. Sin tortura, sin secuestro”.'
   cover: /assets/imgs/unaGalaxiaDeLuciernagasCover.jpg
   slug: una-galaxia-de-luciernagas
+
+- book: 'Don Juan de Kolomea'
+  book_subtitle: ''
+  author: 'Leopold von Sacher-Masoch'
+  prologue: ''
+  translator: 'Luisina Rüedi'
+  illustrator: 'Ilustración de portada de Franz von Bayros, Das Gefuhl (El sentimiento), 1912'
+  isbn: '978-84-940629-2-6'
+  depósito legal: ''
+  release_date: 'Julio de 2012'
+  PVP: '12,00 €'
+  PVP_ebook:  '4,50 €'
+  Printed_book_format: 'Medidas: 210 x 130 mm'
+  pages_number: '128 páginas'
+  Ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
+  description: 'Para Sacher-Masoch, el amor es una cuestión sencilla: es la guerra entre los sexos, y amar consiste en ser yunque o martillo. A través de Don Juan –figura mítica en la interrogación amorosa–, Sacher-Masoch  investiga el conflicto que está en el fondo del matrimonio monógamo («una hermosa demencia que consume toda la alegría, de la cual sólo hace falta recordar instantes.»). El seductor implacable narra la historia de sus múltiples amores,  reflejada sobre el telón de la memoria de una pasada e irrecuperable felicidad conyugal. Su voz, cínica y derrotada, es capaz de hacer inventario de sus conquistas mientras sostiene que: «nuestra única sabiduría es el suicidio. Pero la naturaleza nos ha garantizado un dolor todavía más horrible que la vida: el amor». Porque, en una vuelta de tuerca al mito, su Don Juan es también un místico y, como los místicos medievales, su idea de la redención oscila entre la crueldad y la lujuria. «Sí, el amor es un puro sufrimiento; el placer es la redención. Pero es también la violencia que uno de los dos ejerce sobre el otro, es el concurso para lograr ser sometido al otro. El amor es esclavitud y uno se torna esclavo cuando ama. El hombre se siente maltratado por la mujer, pero goza en el erotismo que ofrece esa crueldad y esa tiranía. Besamos el pie que nos somete». Don Juan de Kolomea (1866) apareció en el primer volumen del ciclo de narraciones reunidas bajo el título colectivo de El Legado de Caín (1870). El proyecto de Sacher-Masoch era dedicar cada volumen a uno de los grandes temas de la vida contemporánea: el amor, la propiedad, el Estado, la guerra, el trabajo y la muerte. De los seis volúmenes previstos, completó sólo los primeros dos.'
+  cover: /assets/imgs/3ConferenciasCover.png
+  slug: don-juan-de-kolomea
+
+- book: 'Una mirada interrogativa & altres textos errants'
+  book_subtitle:
+  author: 'Jaume Benavente'
+  prologue: 'Textos de Alvar Masllorens & Marcela Rivera'
+  translator: 'Traducción de textos en castellano de Luisina Rüedi y vanessa Escuer'
+  illustrator: 'Ilustración de Jaume Benavente'
+  isbn: '978-84-940629-6-4'
+  depósito legal: 'B.10528-2013'
+  release_date: 'Julio de 2017'
+  PVP: '14,50€'
+  PVP_ebook:  '4,50 €'
+  Printed_book_format: 'Medidas: 210 x 130 mm'
+  pages_number: '128 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
+  description: 'El novembre del 2014 Jaume Benavente va viatjar a Xile per presentar la seva novel·la Nocturn de Portbou i donar una conferència sobre la seva obra a la Universitat Finis Terrae de Santiago de Xile. Aquest llibre recull el diari de la seva estada al país i la transcripció de la conferència a la universitat, a més de dos textos relacionats, on l’autor reflexiona sobre aspectes de la seva obra: la propia novel·la protagonista dels actes a Xile i un assaig sobre la importància del viatge a la seva producció. Com a complement, trobem dos textos aliens sobre l’obra de Benavente: un sobre el Nocturn de Portbou i un altre sobre el conjunt de les seves creacions. En els textos recollits en aquest llibre, el lector coneixerà la visió de Benavente sobre la seva propia obra: des d’un punt de vista més analític, el veurà reflexionar sobre alguns aspectes de les seves creacions, i, des d’un punt de vista més empíric, assistirà al seu procés creatiu (el viatge a Valparaiso i les seves passejades que li proporcionen paisatges i personatges per una obra futura són la millor porta d’accés al seu mètode de treball). Aquest llibre representa un petit plaer tant pel coneixedor de la seva obra, que podrà observar de primera mà les interioritats del seu procés creatiu (infuències, mètode…) com per a qui vulgui accedir-hi per primera vegada, que trobarà en aquestes pàgines les principals claus de la seva producció literària.'
+  cover: /assets/imgs/unaMiradaInterrogativa.jpg
+  slug: una-mirada-interrogativa-i-altres-textos-errants
+
+- book: 'El vengador'
+  book_subtitle:
+  author: 'Thomas de Quincey'
+  prologue: 'Posfacio de Susan Chaplin'
+  translator: 'Traducción de Mario Ortega'
+  illustrator: ''
+  isbn: '978-84-940629-6-4'
+  depósito legal: 'B.10528-2013'
+  release_date: 'Octubre de 2019'
+  PVP: '18,50€'
+  PVP_ebook:  '6,00 €'
+  Printed_book_format: 'Medidas: 210 x 130 mm'
+  pages_number: '148 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
+  description: 'A comienzos de siglo XIX, en una pequeña ciudad alemana de provincias, se desata una serie de delitos inexplicables: verdaderas matanzas sin razón aparente, familias enteras masacradas en los ambientes post-napoleónicos característicos de la Alemania de entonces. ¿Qué pudo desencadenar esa furia sangrienta? Del antecedente –un antiguo agravio de origen racial y familiar– surge la figura del vengador, digno émulo de ese John Williams que aterrorizaba a los lectores de El asesinato considerado como una de las bellas artes. En El vengador (1838), publicado en las décadas que median entre la aparición del Frankenstein de Mary Shelley y El extraño caso del Dr. Jekyll y Mr. Hyde de Robert Louis Stevenson, Thomas De Quincey logra mezclar con maestría una trama feroz con una historia de amor y nos ofrece una de las ficciones góticas más emblemáticas de este período. La obra ilustra la evolución desde la novela gótica del Romanticismo a una forma de goticismo literario más moderno, o incluso posmoderno. En particular, este breve texto refleja la interrogación gótica de la patología del poder moderno que, aun cuando afirma la primacía de los «derechos humanos», entraña formas cada vez más complejas y encubiertas de violencia jurídica contra el otro.
+  cover: /assets/imgs/elCreadorCover.jpg
+  slug: el-vengador
+  sobre_el_libro: “El vengador es una ficción gótica muy moderna y oscuramente profética que problematiza la relación entre ética, justicia y ley.”—Sue Chaplin'
