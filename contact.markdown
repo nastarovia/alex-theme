@@ -1,6 +1,4 @@
 ---
-layout: default
+layout: contact
 title: contacto
 ---
-
-{% include contact-form.html %}
