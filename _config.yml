@@ -37,3 +37,11 @@ collections:
   libros:
     output: true
     permalink: /libros/:path/
+
+#social media
+
+facebook_url: 'https://www.facebook.com/LibrosdelaVoragine/'
+twitter_url: 'https://twitter.com/voraginebooks'
+linkedin_url:
+pinterest_url:
+instagram_url:

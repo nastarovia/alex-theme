@@ -6,3 +6,5 @@
   link: /contact
 - name: Libros
   link: /libros
+- name: Artículos
+  link: /blog

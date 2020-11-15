@@ -15,7 +15,7 @@ box-sizing: content-box;
 
 }
 
-.section {margin-right: 5em; margin-left: 5em;}
+
 
 .content {margin-top: 1.5em;}
 
@@ -31,7 +31,7 @@ $section-book-info-padding:  1.5rem 0;
 
 
 .book-info-container  {margin: $section-book-info-padding; }
-.book-info-container p {line-height: 0.5rem!important; }
+.book-info-container p {line-height:0.825rem!important; }
 
 @import "presets";
 @import "bulma";

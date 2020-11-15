@@ -2,27 +2,30 @@
 {% for item in books %}
 {% if item.book == page.title %}
 <div class="container">
-<section class="columns mx-6 mt-3 mx-3-mobile " >
+<section class="columns" >
 
-  <div class="column is-4 has-margin-left-6 has-margin-1-mobile">
+  <div class="column is-1">
+    </div>
+
+  <div class="column is-3-desktop is-3-tablet">
 
           <figure class="image is-2by3 ">
             <img src="{{ item.cover }}" alt="{{ item.book | prepend: "cubierta de" }}" />
           </figure>
   </div>
-  <div class="column is-6 has-margin-left-2-desktop has-margin-right-6-desktop has-margin-1-mobile has-text-centered-mobile">
+  <div class="column is-5 is-4-tablet has-margin-left-2-desktop has-margin-right-6-desktop has-margin-1-mobile has-text-centered-mobile">
 <div class="container">
   <div class="titles">
           <p class="title is-size-3 has-text-weight-light">{{ item.book }}</p>
           <p class="subtitle is-size-6 has-text-weight-bold">{{ item.author }}</p>
-          </div>
-          <div class="book-info-container is-size-6 has-text-weight-normal">
+  </div>
+  <div class="book-info-container is-size-6 has-text-weight-normal">
             <p class="mb-0">Fecha de publicación: {{ item.release_date }}</p>
               <p class="mb-0">{{ item.pages_number }}</p>
                 <p class="mb-0">ISBN: {{ item.isbn }}</p>
-          </div>
-          <div class="container">
-          <p class="content has-text-justified ">{{ item.description }}</p>
+  </div>
+  <div class="container">
+          <p class="content has-text-justified is-margin-1-mobile">{{ item.description }}</p>
           </div>
 </div>
 
@@ -35,10 +38,16 @@
 
             <p class="title is-6">{{ item.PVP}}</p>
             <p class="subtitle is-7">Libro impreso</p>
+            <p><button type="button" name="button" class="button is-small is-primary is-light">  <a href="https://trolley.link/p/{{ item.data-tpk }}" data-trolley="true" data-tpk="{{ item.data-tpk }}" data-styled="false" data-note="hola mundo">
+        comprar
+    </a></button></p>
 
-    </div>
+      </div>
 
   </div>
+  </div>
+  <div class="column is-1">
+    </div>
 {% endif %}
 {% endfor %}
 
