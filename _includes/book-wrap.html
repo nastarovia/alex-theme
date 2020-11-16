@@ -34,17 +34,33 @@
     <div class="card">
 
 
-      <div class="card-content has-text-centered">
+      <div class="card-content  has-text-centered">
 
-            <p class="title is-6">{{ item.PVP}}</p>
-            <p class="subtitle is-7">Libro impreso</p>
-            <p><button type="button" name="button" class="button is-small is-primary is-light">  <a href="https://trolley.link/p/{{ item.data-tpk }}" data-trolley="true" data-tpk="{{ item.data-tpk }}" data-styled="false" data-note="hola mundo">
+            <p class="title is-6  has-text-weight-bold">{{ item.PVP}}</p>
+            <p class="subtitle is-7  has-text-weight-bold">Libro impreso</p>
+            <p><button type="button" name="button" class="button is-small is-warning">  <a class="has-text-white" href="https://trolley.link/p/{{ item.data-tpk }}" data-trolley="true" data-tpk="{{ item.data-tpk }}" data-styled="false" data-note="hola mundo">
         comprar
     </a></button></p>
 
       </div>
 
   </div>
+
+  <div class="card">
+
+
+    <div class="card-content has-text-warning has-text-centered">
+
+          <p class="title is-6 has-text-weight-bold">{{ item.PVP_ebook}}</p>
+          <p class="subtitle is-7 has-text-weight-bold">Libro electrónico</p>
+          <p><button type="button" name="button" class="button is-small is-warning ">  <a class="has-text-white" href="https://trolley.link/p/{{ item.data-tpk }}" data-trolley="true" data-tpk="{{ item.data-tpk }}" data-styled="false" data-note="hola mundo">
+      comprar
+  </a></button></p>
+
+    </div>
+
+</div>
+
   </div>
   <div class="column is-1">
     </div>
