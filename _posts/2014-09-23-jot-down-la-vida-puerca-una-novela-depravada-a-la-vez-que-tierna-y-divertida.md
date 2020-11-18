@@ -1,14 +1,8 @@
 ---
-title: 'Jot Down: &#8220;La vida puerca, una novela depravada a la vez que tierna y divertida&#8221;'
+title: La vida puerca, una novela depravada a la vez que tierna y divertida
 author: Jot Down
 layout: post
-categories:
-  - La vida puerca
-  - Reseñas
-tags:
-  - Héctor Sánchez Minguillán
-  - Jot Down
-  - Libros de la Vorágine
+tags: [Hector-Sanchez-Minguillán, Jot Down, La-Voragine]
 ---
 <span style="color: #141823">Estupenda reseña de<em> La vida puerca</em>, vía _Jot Down_:
 
