@@ -1,10 +1,10 @@
-- name: Home
+- name: /   Libros   /
   link: /
-- name: Nosotros
+- name: /   Nosotros   /
   link: /about
-- name: Contacto
+- name: /   Contacto   /
   link: /contact
-- name: Libros
-  link: /libros
-- name: Artículos
+- name: /   Próximamente   /
+  link: /proximamente
+- name: /   Artículos   /
   link: /blog

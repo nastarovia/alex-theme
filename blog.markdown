@@ -5,29 +5,30 @@ permalink: /blog/
 ---
 <section>
 
-<div class="columns is-multiline is-centered m-4">
+<div class="columns is-centered m-4">
+<div class="column is-8 is-centered ">
+
+
+<div class="columns is-centered is-multiline">
+
 
 {% for post in site.posts %}
+  <article class="column is-6-desktop is-6-tablet is-1-mobile">
 
-<div class="column is-one-third">
+    <div class="content has-text-centered">
 
- <article class="post">
-
-    <header class="titles">
-    <h2 class="title has-text-centered"><a class="post-link has-text-weight-light is-size-4" href="{{ post.url | relative_url }}">
-    {{ post.title | escape }}
-    </a>
-    </h2>
-    </header>
-
-    <div class="post-content">
-    {{ post.excerpt }}
+    <p class="title is-size-4 has-text-centered has-text-weight-light "><a class="has-text-weight-light has-text-grey-dark" href="{{ post.url | relative_url }}">
+    {{ post.title}}</a> <br /><span class="is-size-6 is-family-sans-serif has-text-weight-bold has-text-primary"> {{ post.author }}</span></p>
     </div>
+<hr />
+  </article>
 
-</article>
+  {% endfor %}
+</div>
+
+
 
 </div>
-{% endfor %}
 </div>
 
 

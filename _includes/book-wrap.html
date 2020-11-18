@@ -1,69 +1,52 @@
 {% assign books = site.data.books %}
 {% for item in books %}
 {% if item.book == page.title %}
+
+
 <div class="container">
-<section class="columns" >
-
+<div class="columns is-3-desktop is-3-tablet has-text-centered">
   <div class="column is-1">
-    </div>
+  </div>
+  <div class="column column is-3-desktop is-3-tablet ">
+        </div>
+  <div class="column column is-5 is-4-tablet">
+            <p class="title is-size-3 has-text-weight-normal 	">{{ item.book }} <br /><span class="is-size-4 is-family-sans-serif has-text-weight-bold has-text-primary"> {{ item.author }}</span></p>
+  </div>
+  <div class="column">
+  </div>
+</div>
+</div>
 
+<section class="columns" >
+  <div class="column is-1">
+  </div>
   <div class="column is-3-desktop is-3-tablet">
-
           <figure class="image is-2by3 ">
             <img src="{{ item.cover }}" alt="{{ item.book | prepend: "cubierta de" }}" />
           </figure>
-  </div>
-  <div class="column is-5 is-4-tablet has-margin-left-2-desktop has-margin-right-6-desktop has-margin-1-mobile has-text-centered-mobile">
-<div class="container">
-  <div class="titles">
-          <p class="title is-size-3 has-text-weight-light">{{ item.book }}</p>
-          <p class="subtitle is-size-6 has-text-weight-bold">{{ item.author }}</p>
-  </div>
-  <div class="book-info-container is-size-6 has-text-weight-normal">
-            <p class="mb-0">Fecha de publicación: {{ item.release_date }}</p>
-              <p class="mb-0">{{ item.pages_number }}</p>
-                <p class="mb-0">ISBN: {{ item.isbn }}</p>
-  </div>
-  <div class="container">
-          <p class="content has-text-justified is-margin-1-mobile">{{ item.description }}</p>
-          </div>
-</div>
 
+          <div class="book-info-container is-size-6 has-text-weight-normal">
+                    <p class="mb-0">Fecha de publicación: {{ item.release_date }}</p>
+                      <p class="mb-0">{{ item.pages_number }}</p>
+                        <p class="mb-0">ISBN: {{ item.isbn }}</p>
+          </div>
+  </div>
+  <div class="column is-5 is-4-tablet is-marginless has-text-centered-mobile ">
+          <p class="has-text-justified is-size-5 is-margin-1-mobile">{{ item.description }}</p>
   </div>
   <div class="column is-2 ">
+
     <div class="card">
-
-
-      <div class="card-content  has-text-centered">
-
-            <p class="title is-6  has-text-weight-bold">{{ item.PVP}}</p>
-            <p class="subtitle is-7  has-text-weight-bold">Libro impreso</p>
-            <p><button type="button" name="button" class="button is-small is-warning">  <a class="has-text-white" href="https://trolley.link/p/{{ item.data-tpk }}" data-trolley="true" data-tpk="{{ item.data-tpk }}" data-styled="false" data-note="hola mundo">
-        comprar
-    </a></button></p>
-
-      </div>
-
-  </div>
-
-  <div class="card">
-
-
-    <div class="card-content has-text-warning has-text-centered">
-
-          <p class="title is-6 has-text-weight-bold">{{ item.PVP_ebook}}</p>
-          <p class="subtitle is-7 has-text-weight-bold">Libro electrónico</p>
-          <p><button type="button" name="button" class="button is-small is-warning ">  <a class="has-text-white" href="https://trolley.link/p/{{ item.data-tpk }}" data-trolley="true" data-tpk="{{ item.data-tpk }}" data-styled="false" data-note="hola mundo">
-      comprar
-  </a></button></p>
-
+  {% include printed-book-button.html %}
     </div>
 
-</div>
+    <div class="card">
+{% include ebook-buttons.html %}
+    </div>
 
   </div>
   <div class="column is-1">
-    </div>
+  </div>
 {% endif %}
 {% endfor %}
 

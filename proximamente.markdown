@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About
-permalink: /about/
+title: Proximamente
+permalink: /proximamente/
 ---
 <section>
 
@@ -9,7 +9,7 @@ permalink: /about/
 
 <div class="column is-half is-offset-one-quarter has-text-justified is-size-5">
 
-{{ site.description }}
+
 
 </div>
 

@@ -16,7 +16,11 @@
   cover: /assets/imgs/unaGalaxiaDeLuciernagasCover.jpg
   slug: una-galaxia-de-luciernagas
   data-tpk: 79K9GQ
-  
+  apple-store-link: http://books.apple.com/us/book/id1539983665
+  kobo-store-link: https://www.kobo.com/es/es/ebook/una-galaxia-de-luciernagas
+  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B08N9TQ2RV
+  google-play-store-link: https://play.google.com/store/books/details?id=nYAIEAAAQBAJ
+
 - book: 'El creador'
   book_subtitle:
   author: 'Mynona / Salomo Friedlaender'
@@ -35,6 +39,12 @@
   cover: /assets/imgs/elCreadorCover.jpg
   slug: el-creador
   data-tpk: G3M6LM
+  apple-store-link: https://books.apple.com/us/book/id1540420036
+  kobo-store-link: https://www.kobo.com/es/es/ebook/el-creador-3
+  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B07X5CGMXV
+  google-play-store-link: https://play.google.com/store/books/details?id=ory_DwAAQBAJ
+
+
 - book: 'La misteriosa maternidad del verso'
   book_subtitle: '/ 3 conferencias'
   author: 'Gabriela Mistral, Juana de Ibarbourou & Alfonsina Storni'
@@ -47,7 +57,7 @@
   PVP: '12,00 €'
   PVP_ebook:  '4,50 €'
   Printed_book_format: 'Medidas: 180 x 110 mm'
-  pages_number: '128 páginas'
+  pages_number: '84 páginas'
   Ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
   description:
     '«El año 1938 el Ministro de Educación de Uruguay organizó un curso de verano llamado «Curso sudamericano en la Universidad de Montevideo. A una de las sesiones fueron invitadas las mayores exponentes de la poesía del cono sur de ese momento: Juana de Ibarbourou, de Uruguay; Alfonsina Storni, de Argentina y Gabriela Mistral, de Chile, para hablar de su labor poética y explicar cómo escribían sus versos.»
@@ -73,6 +83,10 @@
   cover: /assets/imgs/3ConferenciasCover.png
   slug: la-misteriosa-maternidad-del-verso
   data-tpk: 82YLZJ
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B07642GMBS
+  google-play-store-link:
 
 - book: 'La tigresa'
   book_subtitle: 'Una extraña historia de amor'
@@ -94,6 +108,10 @@
   cover: /assets/imgs/TigresaCover.jpg
   slug: la-tigresa
   data-tpk: 3YVPNZ
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B07649PNJF
+  google-play-store-link:
 
 - book: 'Don Juan de Kolomea'
   book_subtitle: ''
@@ -113,6 +131,10 @@
   cover: /assets/imgs/donJuanDeKolomeaCover.jpg
   slug: don-juan-de-kolomea
   data-tpk: GN16VG
+  apple-store-link:
+  kobo-store-link: https://www.kobo.com/es/es/ebook/don-juan-de-kolomea
+  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B00AQ8WDGK
+  google-play-store-link: https://play.google.com/store/books/details?id=Uzcc7URzagAC
 
 - book: 'Una mirada interrogativa i altres textos errants'
   book_subtitle:
@@ -132,6 +154,10 @@
   cover: /assets/imgs/unaMiradaInterrogativa.jpg
   slug: una-mirada-interrogativa-i-altres-textos-errants
   data-tpk: WWVX7KZ
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B0764BQVXL
+  google-play-store-link:
 
 - book: 'El vengador'
   book_subtitle:
@@ -152,3 +178,7 @@
   slug: el-vengador
   sobre_el_libro: 'El vengador es una ficción gótica muy moderna y oscuramente profética que problematiza la relación entre ética, justicia y ley.—Sue Chaplin'
   data-tpk: GN71WW
+  apple-store-link: http://books.apple.com/us/book/id733793627
+  kobo-store-link: https://www.kobo.com/es/es/ebook/el-vengador
+  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B007EHCH6W
+  google-play-store-link: https://play.google.com/store/books/details?id=Uzcc7URzagAC
