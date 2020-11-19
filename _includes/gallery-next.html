@@ -1,4 +1,4 @@
-{% assign books = site.data.books %}
+{% assign books = site.data.nextbooks %}
 <section class="gallery columns is-centered">
 
   <div class="column is-8 is-centered ">
@@ -8,15 +8,16 @@
         <article class="column is-4-desktop is-6-tablet is-3-widescreen">
           <card>
           <figure class="image is-2by3">
-            <a href="{{ site.baseurl }}/libros/{{ item.slug }}">
+            <a href="{{ site.baseurl }}/proximamente/{{ item.slug }}">
             <img src="{{ item.cover }}"  />
             </a>
           </figure>
           </card>
 
           <div class="has-text-centered">
-          <p class="title is-size-6 has-text-weight-normal is-family-sans-serif">{{ item.book }}</p>
-          <p class="author is-size-6 has-text-weight-semibold has-text-primary">{{ item.author }}</p>
+          <p class="title is-size-5-desktop is-size-5-tablet has-text-weight-normal is-family-serif">{{ item.book }}</p>
+          <p class="author is-size-6-desktop is-size-5-tablet has-text-weight-semibold has-text-primary">{{ item.author }}</p>
+          
 
         </div>
 

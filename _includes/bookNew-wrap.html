@@ -1,4 +1,4 @@
-{% assign books = site.data.books %}
+{% assign books = site.data.nextbooks %}
 {% for item in books %}
 {% if item.book == page.title %}
 
@@ -19,13 +19,7 @@
   </div>
   <div class="column is-2 ">
 
-    <div class="card">
-  {% include printed-book-button.html %}
-    </div>
-
-    <div class="card">
-  {% include ebook-buttons.html %}
-    </div>
+    
 
   </div>
   <div class="column is-1">

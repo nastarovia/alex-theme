@@ -17,13 +17,14 @@ permalink: /blog/
 
     <div class="content has-text-centered">
 
-<p class="is-family-serif is-size-3 has-text-primary has-background-warning"> &#167;</p>
+<p class="is-family-serif is-size-3 has-text-primary is-marginless"> &#167;</p>
 
-<hr />
+<div class="container ">
     <p class="title is-size-4 has-text-centered has-text-weight-light "><a class="has-text-weight-light has-text-grey-dark" href="{{ post.url | relative_url }}">
-    {{ post.title}}</a> <br /><span class="is-size-5 is-family-sans-serif has-text-weight-semibold has-text-primary"> {{ post.author }}</span></p>
+    {{ post.title}}</a> <br /><span class="is-size-6 is-family-sans-serif has-text-weight-semibold has-text-primary"> {{ post.author }}</span></p>
     </div>
-<hr />
+    </div>
+
   </article>
 
   {% endfor %}

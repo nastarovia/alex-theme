@@ -1,6 +1,6 @@
 title: 'La Vorágine'
 tagline: 'Un laboratorio de edición digital'
-email: your-email@example.com
+email: info@librosdelavoragine.com
 description: >- # this means to ignore newlines until "baseurl:"
   La Vorágine es una editorial independiente de Barcelona, dedicada a la publicación de libros deliciosamente extraños, que campan en las fronteras entre géneros, esos lugares peligrosos y propensos a la belleza. Nuestros libros son (casi siempre) primeras traducciones de autores esenciales y nunca (o muy poco) publicados en lengua española, en ediciones que procuramos sean completas, accesibles y cuidadas..
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -37,6 +37,9 @@ collections:
   libros:
     output: true
     permalink: /libros/:path/
+  proximamente:
+    output: true
+    permalink: /proximamente/:path/
 
 #social media
 
