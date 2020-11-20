@@ -5,8 +5,8 @@
     <div class="gallery columns is-multiline is-centered ">
 {% for item in books %}
 
-        <article class="column is-4-desktop is-6-tablet is-3-widescreen">
-          <card>
+        <article class="column is-4-desktop is-6-tablet is-3-widescreen" style="min-width: 175px;">
+          <card >
           <figure class="image is-2by3">
             <a href="{{ site.baseurl }}/libros/{{ item.slug }}">
             <img src="{{ item.cover }}"  />
@@ -15,8 +15,8 @@
           </card>
 
           <div class="has-text-centered">
-          <p class="title is-size-6 has-text-weight-normal is-family-sans-serif">{{ item.book }}</p>
-          <p class="author is-size-6 has-text-weight-semibold has-text-primary">{{ item.author }}</p>
+          <p class="title is-size-6 has-text-weight-semibold is-family-sans-serif">{{ item.book }}</p>
+          <p class="author is-size-6 has-text-weight-normal has-text-primary">{{ item.author }}</p>
 
         </div>
 
