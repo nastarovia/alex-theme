@@ -13,16 +13,17 @@ permalink: /blog/
 
 
 {% for post in site.posts %}
-  <article class="column is-6-desktop is-6-tablet is-1-mobile">
+  <article class="monkey column is-6-desktop is-6-tablet is-12-mobile has-background-light">
 
-    <div class="content has-text-centered">
+    <div class=" container has-text-centered ">
+
 
 <p class="is-family-serif is-size-3 has-text-primary is-marginless"> &#167;</p>
-
+</div>
 <div class="container ">
     <p class="title is-size-4 has-text-centered has-text-weight-light "><a class="has-text-weight-light has-text-grey-dark" href="{{ post.url | relative_url }}">
     {{ post.title}}</a> <br /><span class="is-size-6 is-family-sans-serif has-text-weight-semibold has-text-primary"> {{ post.author }}</span></p>
-    </div>
+
     </div>
 
   </article>
