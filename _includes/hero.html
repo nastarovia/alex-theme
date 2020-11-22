@@ -1,19 +1,15 @@
-<section class="hero is-white is-small ">
-  <div class="hero-head">
+<section class="hero is-small has-background-warning">
+    <div class="hero-head">
+      {% include navbar.html %}
     </div>
 
   <!-- Hero content: will be in the middle -->
-  <div class="hero-body has-background-warning">
-    <div class="container has-text-centered ">
-      <h1 class="title">
-      <figure class="banner">
-        <img src="{{ base.url }}/assets/imgs/logo_banner_48x300.png" />
-        </figure>
-      </h1>
-    </div>
-  </div>
-  <div class="hero-foot has-background-light">
-    {% include hero-footer.html %}
-  </div>
+  <div class="hero-body is-marginless">
 
+      <img src="/assets/imgs/sombras_libros.jpg" />
+
+          </div>
+          <div>
+            {% include hero-footer.html %}
+            </div>
 </section>

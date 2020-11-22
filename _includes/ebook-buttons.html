@@ -1,19 +1,19 @@
 <div class="card-content has-text-warning has-text-centered">
 
-      <p class="title is-6 has-text-weight-bold is-family-sans-serif has-text-primary">{{ item.PVP_ebook}}</p>
-      <p class="subtitle is-7 has-text-weight-bold is-uppercase	has-text-primary">Libro electrónico</p>
+      <p class="title is-6 has-text-weight-bold is-family-sans-serif has-text-grey-darker">{{ item.PVP_ebook}}</p>
+      <p class="subtitle is-7 has-text-weight-bold is-uppercase	has-text-grey-darker">Libro electrónico</p>
 
 {% if item.apple-store-link %}
-      <p><button type="button" name="button" class="button is-small is-warning ">  <a class="has-text-weight-bold is-family-sans-serif" href="{{ item.apple-store-link }}" >Apple Store</a></button></p>
+      <p><button type="button" name="button" class="button is-small is-warning ">  <a class="has-text-weight-bold is-family-sans-serif has-text-weight-bold has-text-grey-darker" href="{{ item.apple-store-link }}" >Apple Store</a></button></p>
 {% endif %}
 {% if item.kindle-store-link %}
-      <p><button type="button" name="button" class="button is-small is-warning ">  <a class="has-text-weight-bold is-family-sans-serif" href="{{ item.kindle-store-link }}" >Kindle Store</a></button></p>
+      <p><button type="button" name="button" class="button is-small is-warning ">  <a class="has-text-weight-bold is-family-sans-serif has-text-weight-bold has-text-grey-darker" href="{{ item.kindle-store-link }}" >Kindle Store</a></button></p>
 {% endif %}
 {% if item.kobo-store-link %}
-      <p><button type="button" name="button" class="button is-small is-warning ">  <a class="has-text-weight-bold is-family-sans-serif" href="{{ item.kobo-store-link }}" >Kobo Store</a></button></p>
+      <p><button type="button" name="button" class="button is-small is-warning ">  <a class="has-text-weight-bold is-family-sans-serif has-text-weight-bold has-text-grey-darker" href="{{ item.kobo-store-link }}" >Kobo Store</a></button></p>
 {% endif %}
 
 {% if item.google-play-store-link %}
-      <p><button type="button" name="button" class="button is-small is-warning ">  <a class="has-text-weight-bold is-family-sans-serif" href="{{ item.google-play-store-link }}" >Google Play</a></button></p>
+      <p><button type="button" name="button" class="button is-small is-warning ">  <a class="has-text-weight-bold is-family-sans-serif has-text-weight-bold has-text-grey-darker" href="{{ item.google-play-store-link }}" >Google Play</a></button></p>
 {% endif %}
     </div>

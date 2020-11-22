@@ -1,22 +1,22 @@
 {% assign books = site.data.books %}
 <section class="gallery columns is-centered">
 
-  <div class="column is-8 is-centered ">
-    <div class="gallery columns is-multiline is-centered ">
+  <div class="column is-10 is-centered ">
+    <div class="gallery  columns is-multiline is-centered ">
 {% for item in books %}
 
-        <article class="column is-4-desktop is-6-tablet is-3-widescreen" style="min-width: 175px;">
-          <card >
+        <article class="column  is-4-desktop is-6-tablet is-3-widescreen" style="min-width: 175px;">
+          <block >
           <figure class="image is-2by3">
             <a href="{{ site.baseurl }}/libros/{{ item.slug }}">
             <img src="{{ item.cover }}"  />
             </a>
           </figure>
-          </card>
+          </block>
 
           <div class="has-text-centered">
-          <p class="title is-size-6 has-text-weight-semibold is-family-sans-serif">{{ item.book }}</p>
-          <p class="author is-size-6 has-text-weight-normal has-text-primary">{{ item.author }}</p>
+          <p class=" title is-size-4 has-text-weight-bold is-italic is-family-serif">{{ item.book }}</p>
+          <p class="author is-size-6 has-text-weight-light  has-text-grey">{{ item.author }}</p>
 
         </div>
 

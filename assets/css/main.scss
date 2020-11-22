@@ -3,7 +3,7 @@
 ---
 
 @charset "utf-8";
-.content figure { margin-left: 0!important; margin-right: 0!important;  text-align: center; padding: 15px;  box-shadow:
+.content figure { margin-left: 0!important; margin-right: 0!important;  text-align: center; padding: 35px;  box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
   0 12.5px 10px rgba(0, 0, 0, 0.06),
@@ -16,8 +16,9 @@ box-sizing: content-box;
 }
 
 .monkey {margin: 1.5rem!important;}
-.hero .hero-body{height: 13.5vh;}
-
+.hero .hero-body{height: fit-content; padding: 0!important}
+.hero-foot {border-bottom: 30px #ffdd57 solid;}
+.footer {border-top: 15px #ffdd57 solid;}
 .content {margin-top: 1.5em;}
 
 .card  {margin-top: 0px;}
@@ -27,9 +28,13 @@ $spacing-unit: 30px;
 .subtitle { margin-top: -.25rem!important;}
 p.author  {margin-top: 0.25rem!important; line-height: 1rem;}
 .gallery p.title  {margin: 1rem 0 0 0!important;}
+.navbar-item img {
+max-height: 3.75rem!important;
+}
 
+.hero-body {width: 100%; }
+.navbar-brand { margin-left: 4.25em!important;}
 $section-book-info-padding:  1.5rem 0;
-
 
 .book-info-container  {margin: $section-book-info-padding; }
 .book-info-container p {line-height:0.725rem!important; }
