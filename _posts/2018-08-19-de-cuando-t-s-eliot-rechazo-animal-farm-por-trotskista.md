@@ -3,8 +3,7 @@ title: De cuando T.S. Eliot rechazó Animal Farm por trotskista
 author: Lucho Tapia
 layout: post
 permalink: /blog/de-cuando-t-s-eliot-rechazo-animal-farm-por-trotskista/
-categories:
-  - cartas
+categories: [cartas literarias]
 tags:
   - Animal Farm
   - carta de rechazo

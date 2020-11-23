@@ -1,0 +1,19 @@
+<div id="archives" class="card">
+<h4 class="is-family-serif is-size-4 has-text-primary is-marginless"> Categorías</h4>
+{% for category in site.categories %}
+  <div class="archive-group">
+
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+
+    <p class="title is-size-4 has-text-align-left has-text-weight-light ">{{ category_name | capitalize }}
+    <a class="has-text-weight-light has-text-grey-dark" name="{{ category_name | slugize }}"></a></p>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <p class="is-size-6 is-family-sans-serif has-text-weight-semibold has-text-primary"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></p>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>
