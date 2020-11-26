@@ -3,7 +3,7 @@ title: Una carta sobre la revelación
 author: Phillip K. Dick
 layout: post
 excerpt_separator: <!--Seguir leyendo-->
-categories: [cartas literarias]
+categories: [Cartas literarias]
 ---
 Querida Claudia,
 
