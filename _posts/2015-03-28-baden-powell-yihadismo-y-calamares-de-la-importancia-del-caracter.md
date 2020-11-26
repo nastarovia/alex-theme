@@ -1,10 +1,8 @@
 ---
-id: 372
 title: Baden Powell, yihadismo y calamares. De la importancia del carácter
 date: 2015-03-28T16:13:02+00:00
 author: Sergio Arteaga
 layout: post
-guid: http://librosdelavoragine.es/?p=372
 permalink: /blog/baden-powell-yihadismo-y-calamares-de-la-importancia-del-caracter/
 categories: [Libros, Reflexiones]
 tags:
