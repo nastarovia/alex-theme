@@ -25,16 +25,23 @@ permalink: /blog/
     {{ post.title}}</a> <br /><span class="is-size-6 is-family-sans-serif has-text-weight-semibold has-text-primary"> {{ post.author }}</span></p>
 
     </div>
+    <div class="container has-text-centered">
+
+{% if post %}
+{% assign categories = post.categories %}
+{% else %}
+{% assign categories = page.categories %}
+{% endif %}
+{% for category in categories %}
+<a class="is-size-6 is-family-sans-serif has-text-weight-semibold" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}} / </a>
+{% unless forloop.last %}&nbsp;{% endunless %}
+{% endfor %}
+</div>
 
   </article>
 
   {% endfor %}
 </div>
-
-
-
 </div>
 </div>
-
-
 </section>
