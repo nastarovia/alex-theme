@@ -1,0 +1,24 @@
+---
+layout: page
+permalink: /categories/
+title: Categories
+---
+
+
+<div id="archives column">
+{% for category in site.categories %}
+  <div class="article column is-centered is-8 is-offset-2">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+
+    <h3 class="category-head is-family-serif is-size-4 has-text-primary is-marginless">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <h4 class="title is-size-5 has-text-weight-light" ><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>

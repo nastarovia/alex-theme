@@ -6,7 +6,7 @@ author: Sergio Arteaga
 layout: post
 guid: http://librosdelavoragine.es/?p=372
 permalink: /blog/baden-powell-yihadismo-y-calamares-de-la-importancia-del-caracter/
-categories: [libros, reflexiones]
+categories: [Libros, Reflexiones]
 tags:
   - baden-powell
   - yihad
