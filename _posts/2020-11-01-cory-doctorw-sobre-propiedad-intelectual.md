@@ -4,7 +4,7 @@ author: Cory Doctorow
 layout: post
 permalink: /blog/no-puedes-ser-dueno-del-conocimiento/
 excerpt_separator: <!--Seguir leyendo-->
-categories: [Copyright, Opensource]
+categories: [copyright, openSource]
 ---
 "Propiedad Intelectual" es uno de esos conceptos tan cargados ideológicamente que su pura mención basta para desencadenar una discusión. <!--Seguir leyendo-->El término no se generalizó hasta los años sesenta, momento en que fue adoptado por la Organización Mundial de la Propiedad Intelectual (OMPI), un organismo comercial que más tarde elevaría su estatus como organismo especializado de las Naciones Unidas.
 

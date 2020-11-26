@@ -4,9 +4,9 @@ author: Jot Down
 layout: post
 permalink: /blog/la-vida-puerca-una-novela-depravada-a-la-vez-que-tierna-y-divertida
 tags: [Hector-Sanchez-Minguillán, Jot Down, La-Voragine]
-categories: [Libros, Reseñas]
+categories: [libros, reseñas]
 ---
-<span style="color: #141823">Estupenda reseña de<em> La vida puerca</em>, vía _Jot Down_:
+Estupenda reseña de<em> La vida puerca</em>, vía _Jot Down_:
 
 _&#8220;La vida puerca_ (Libros de la Vorágine, 2014) es la historia de un hijo de puta. Así de directa es la respuesta del autor cuando se le pregunta qué nos vamos a encontrar entre las páginas de su última novela. Y la definición es perfecta.
 

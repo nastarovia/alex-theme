@@ -4,7 +4,7 @@ author: Phillip K. Dick
 layout: post
 permalink: /blog/una-carta-sobre-la-revelacion/
 excerpt_separator: <!--Seguir leyendo-->
-categories: [Cartas]
+categories: cartas
 ---
 Querida Claudia,
 

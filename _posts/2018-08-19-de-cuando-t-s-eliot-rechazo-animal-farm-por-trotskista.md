@@ -1,15 +1,10 @@
 ---
 title: De cuando T.S. Eliot rechazó Animal Farm por trotskista
 author: Lucho Tapia
+date: 2015-03-28T16:13:02+00:00
 layout: post
 permalink: /blog/de-cuando-t-s-eliot-rechazo-animal-farm-por-trotskista/
-categories: [Cartas]
-tags:
-  - Animal Farm
-  - carta de rechazo
-  - George Orwell
-  - Rebelion en la granja
-  - T.S.Eliot
+categories: cartas
 ---
 T.S. Eliot era uno de los directores de Faber & Faber cuando, en julio de 1944, recibió el manuscrito de _Animal Farm_ (publicado en español como &#8220;Rebelión en la granja&#8221;, vaya a saber uno por qué. ). Si no amigos, eran al menos conocidos; y a tenor de los elogios que se intercambiaron sobre sus respectivas obras ("Conozco de memoria una cantidad respetable de los primeros trabajos de Eliot. No me senté y los aprendí, sencillamente están pegados a mi pensamiento, como cualquier fragmento de un poema cuando de verdad hace sonar la campana&#8221;, escribió Orwell en una reseña sobre _Los cuatro cuartetos_ de Eliot; mientras Eliot, en su carta, lo compara nada menos que con Swift.) se respetaban lo suficiente como para esperar que la respuesta de Eliot fuera afirmativa. Sin embargo, Eliot rechazó el texto. El argumento resulta entre extraño y risible (&#8230;&#8221;el lado positivo de esta perspectiva, que en general yo considero trotskista, no resulta convincente.&#8221;), al menos considerado aisladamente. Es más comprensible (aunque no menos extraño) si se sabe que en ese momento, cuando la Segunda Guerra Mundial ya estaba encarrilada a favor de los aliados, aunque mucho aún no estaba decidido, la ayuda y el compromiso de los aliados rusos importaba muchísimo.
 

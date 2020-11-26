@@ -1,5 +1,5 @@
 ---
 layout: categories-page
 title: categorías
-permalink: /categorias/
+permalink: /categories/
 ---
