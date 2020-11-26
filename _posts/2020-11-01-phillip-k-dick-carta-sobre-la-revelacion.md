@@ -2,6 +2,7 @@
 title: Una carta sobre la revelación
 author: Phillip K. Dick
 layout: post
+ermalink: /blog/una-carta-sobre-la-revelacion/
 excerpt_separator: <!--Seguir leyendo-->
 categories: [cartas literarias]
 ---

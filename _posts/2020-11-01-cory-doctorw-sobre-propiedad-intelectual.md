@@ -1,7 +1,8 @@
 ---
-title: No puedes ser dueño del conocimiento
+title: 'No puedes ser dueño del conocimiento'
 author: Cory Doctorow
 layout: post
+permalink: /blog/no-puedes-ser-dueno-del-conocimiento/
 excerpt_separator: <!--Seguir leyendo-->
 categories: [Propiedad intelectual, open source]
 ---
