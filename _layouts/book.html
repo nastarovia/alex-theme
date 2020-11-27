@@ -3,24 +3,24 @@
 {% include head.html %}
   <body classs=" is-white-ter">
 
-      <section class="columns is-marginless galaxia">
-        <div class="column">
+      <section class="columns is-marginless galaxia is-centered">
+        <div class="column is-narrow">
         </div>
-      <div class="column box is-three-quarters-mobile is-two-thirds-tablet is-half-desktop is-half-widescreen is-two-fifth-fullhd is-centered">
+      <div class="column box is-12-mobile is-two-thirds-tablet is-half-desktop is-half-widescreen is-two-fifth-fullhd ">
         <div class="hero">
           <div class="hero-fullheight">
             <figure class="image is-2by3 is-centered">
 
-          <img class="has-ratio " src="{{ page.cover-image}}" />
+          <img class="has-ratio " src="{{ page.cover-image}}" alt="imagen de cubierta de Una Galaxia de Luciérnagas"/>
           </figure>
           </div>
         </div>
         <hr />
-        <div class="box  is-size-5">
+<div class="box is-size-5-desktop is-size-4-tablet">
 {{ content | markdownify }}
 </div>
       </div>
-      <div class="column"
+      <div class="column is-narrow">
       </div>
       </section>
 
