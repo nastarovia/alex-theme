@@ -15,7 +15,7 @@
   <div class="column is-5 is-4-tablet is-marginless has-text-centered-mobile ">
     {% include title-book-container.html %}
     {% include book-info-container.html %}
-          <p class="has-text-justified is-size-5 is-margin-1-mobile">{{ item.description }}</p>
+          <p class="has-text-justified is-size-5 is-margin-1-mobile">{{ item.description | markdownify }}</p>
   </div>
   <div class="column is-2 ">
 
