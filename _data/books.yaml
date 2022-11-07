@@ -83,7 +83,7 @@
     de nuestros antepasados. ¡Menudo trabajo contar
     cómo se hacen los versos!»'
 
-  cover: /assets/imgs/3ConferenciasCover.png
+  cover: /assets/imgs/3conferencias_cover_11x18.jpg
   slug: la-misteriosa-maternidad-del-verso
   data-tpk: 82YLZJ
   apple-store-link:
@@ -185,3 +185,27 @@
   kobo-store-link: https://www.kobo.com/es/es/ebook/el-vengador
   kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B007EHCH6W
   google-play-store-link: https://play.google.com/store/books/details?id=Uzcc7URzagAC
+
+- book: 'La gran novela americana'
+  book_subtitle:
+  author: 'William Carlos Williams'
+  prologue: 'Prólogo de Mario Ortega'
+  translator: 'Traducción de Lucho Tapia'
+  illustrator: 'Imagen de cubierta de Alejandra Wolff'
+  isbn: '978-956-09587-2-3	'
+  depósito legal: ''
+  release_date: 'Enero de 2022'
+  PVP_euros: '14,50€'
+  PVP_pesos_chilenos: '12.000'
+  PVP_ebook:  '4,50 €'
+  Printed_book_format: 'Medidas: 210 x 130 mm'
+  pages_number: '128 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
+  description: 'La gran novela americana (1923) es una novela experimental de William Carlos Williams. Aunque se le conoce sobre todo como poeta, Williams amplió con frecuencia los límites de la prosa a lo largo de su carrera. En la década decisiva del modernismo, Williams intentó probar la llamada "Gran Novela Americana", un concepto que alimentó un apasionado debate en los círculos académicos y artísticos de todo el país. Lejos de ser convencional, la novela de Williams es una incursión metaficcional en asuntos más posmodernos que modernos, un comentario disfrazado de narración y una sátira de la excesiva dependencia de los clichés en forma y contenido. "Si hay progreso, hay novela. Sin progreso no hay nada. Todo existe desde el principio. Yo existía al principio. Yo era un bebé baboso. Hoy he visto hierbas sin nombre... He golpeado la tierra con el nudillo. Sonaba a hueco. Estaba seca como el caucho. Eones de sequía. No ha llovido en quince días. No ha llovido. Nunca ha llovido. Nunca lloverá". La novela de Williams comienza con la palabra y un nacimiento. El lenguaje describe la experiencia de despertar a la experiencia, de llegar a la conciencia como un ser vivo en un mundo vivo. Utilizando palabras del habla cotidiana, construye una novela a partir de observaciones, un libro que permanece consciente de sí mismo en todo momento. Al igual que el niño cuya primera experiencia con la palabra escrita suele provenir de nombres y eslóganes extendidos sobre camiones y vallas publicitarias, el lector acaba aceptando su nueva realidad, un mundo en el que la gente ama y triunfa y fracasa, en el que la historia y el arte interceden para dar sentido a lo que pueden. La Gran Novela Americana muestra la forma experimental de Williams, estirando el significado de "novela" hasta su límite más lejano.'
+  cover: /assets/imgs/gran_novela.jpg
+  slug: la-gran-novela-americana
+  data-tpk: WWVX7KZ
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B0764BQVXL
+  google-play-store-link:
