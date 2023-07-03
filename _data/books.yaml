@@ -1,3 +1,101 @@
+- book: 'Sueños de Valparaíso'
+  book_subtitle:
+  author: 'Jaume Benavente'
+  prologue: 'Textos de Cristóbal Gaete & Marcela Rivera'
+  translator: ''
+  illustrator: 'Ilustración de Carlos Hermosilla'
+  isbn: '978-956-09587-5-4'
+  depósito legal: 
+  release_date: 'Junio de 2023'
+  PVP: '18,00€'
+  PVP_ebook:  '5,50 €'
+  Printed_book_format: 'Medidas: 210 x 130 mm'
+  pages_number: '244 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon Kindle)'
+  description: '«Valparaíso es una ciudad que siempre está al borde del precipicio y la pobreza, así que hay pocos que hoy sueñan esta ciudad como lo hace Jaume; (...). No es la postal detenida que se proyectó con la patrimonialización, sino una habitada por la fuerza de trabajo con la cara a la calle, a la que se sumaron con naturalidad los chinos y haitianos de los que nadie escribe en la literatura (...) Quisiera agregar varios elementos más: el fuego que acecha, los y las artistas profundamente aficionados que se ganan la vida en otra cosa, el trabajo del puerto que alimenta a los porteños, el constante «macheteo» de monedas, pero estos elementos no tienen tiempo, son transversales a la vida porteña. Es que varias épocas conviven en la ciudad, de forma tan evidente como nosotros cargamos nuestro pasado. Así mismo lo hace Sueños de Valparaíso cuando extiende el encuentro de sus personajes a su trayecto anterior» ——Cristóbal Gaete.'
+  cover: /assets/imgs/suenyos_de_valparaiso.jpg
+  slug: suenyos-de-valparaiso
+  data-tpk: WWVX7KZ
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B0764BQVXL
+  google-play-store-link:
+
+- book: 'El creador'
+  book_subtitle:
+  author: 'Mynona / Salomo Friedlaender'
+  prologue: 'Prólogo de Claudio Naranjo'
+  translator: 'Traducción de Luisina Rüedi'
+  illustrator: 'Fotografías de Jerónimo Rüedi & Josue Eber Morales'
+  isbn: '978-84-940629-6-4'
+  depósito legal: 'B.10528-2013'
+  release_date: 'Octubre de 2019'
+  PVP: '18,50€'
+  PVP_ebook:  '6,00 €'
+  Printed_book_format: 'Medidas: 210 x 130 mm'
+  pages_number: '148 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
+  description: 'Catalogado por su autor —Mynona («anónimo» al revés)— como «el experimento mágico más profundo desde Nostradamus», El Creador cuenta la historia de Gumprecht Weiss, un intelectual que se ha retirado de una vida de libertinaje para perseguir sus solitarias reflexiones filosóficas. Al principio soñando y luego encontrándose en la vigilia con una atractiva joven llamada Elvira, Weiss descubre que ella ha escapado de las garras de su tío, el barón, que la ha estado usando como conejillo de indias en sus experimentos metafísicos. Pero el Barón los alcanza y convence a Gumprecht y Elvira para que acudan a su laboratorio, para participar en un experimento destinado a salvar la brecha entre la conciencia despierta y el sueño, entrando en un espejo diseñado para doblar y mezclar realidades. La fábula filosófica de Mynona fue descrita por el legendario editor alemán Kurt Wolff como «una estación más lejana en el imaginativo tren del pensamiento de Hoffmann, Villiers, Poe, etc.», cuando apareció en 1920. La edición se completa con un prólogo del pensador chileno Claudio Naranjo y una serie de fotografías de los artistas plásticos Jerónimo Rüedi & Josue Eber Morales, que reinterpretan las ilustraciones originales de Alfred Kubin'
+  cover: /assets/imgs/elCreadorCover.jpg
+  slug: el-creador
+  data-tpk: G3M6LM
+  apple-store-link: https://books.apple.com/us/book/id1540420036
+  kobo-store-link: https://www.kobo.com/es/es/ebook/el-creador-3
+  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B07X5CGMXV
+  google-play-store-link: https://play.google.com/store/books/details?id=ory_DwAAQBAJ
+
+- book: 'La pregunta por la mujer desde una perspectiva feminista & otros textos sobre feminismo y revolución'
+  book_subtitle:
+  author: 'Eleanor Marx'
+  prologue: 'Prólogo, edición & notas de Guillem Murphy'
+  translator: 'Traducción de Luisina Rüedi & Lucho Tapia'
+  illustrator: 'Imagen de cubierta de Alejandra Wolff'
+  isbn: '978-956-09587-4-7	'
+  depósito legal: ''
+  release_date: 'Marzo de 2023'
+  PVP_euros: '16,50€'
+  PVP_pesos_chilenos: '12.000'
+  PVP_ebook:  '4,50 €'
+  Printed_book_format: 'Medidas: 190 x 120 mm'
+  pages_number: '172 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
+  description: |
+    '«La verdad, no reconocida completamente siquiera por los más dispuestos a ayudar a la mujer, es que ella, como toda la clase trabajadora, está en una situación de opresión; que su posición, como la de ellos, es de una despiadada degradación. Las mujeres son las criaturas de una tiranía organizada de hombres, así como los trabajadores son las criaturas de una organizada tiranía de vagos. E incluso donde todo esto es comprendido, no hemos de cansarnos nunca de insistir en la falta de entendimiento acerca de que, para la mujer, así como para la clase trabajadora, ninguna solución de las dificultades y problemas que viven es realmente posible bajo las condiciones actuales de la sociedad.»
+
+    “Eleanor Marx cambió el mundo y en el proceso se revolucionó a sí misma»—Rachel Holmes.'
+
+  cover: /assets/imgs/eleanor_marx_2.jpg
+  slug: eleanor-marx
+  data-tpk: WWVX7KZ
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B0764BQVXL
+  google-play-store-link:
+
+- book: 'La gran novela americana'
+  book_subtitle:
+  author: 'William Carlos Williams'
+  prologue: 'Prólogo de Mario Ortega'
+  translator: 'Traducción de Lucho Tapia'
+  illustrator: 'Imagen de cubierta de Alejandra Wolff'
+  isbn: '978-956-09587-2-3	'
+  depósito legal: ''
+  release_date: 'Enero de 2022'
+  PVP_euros: '14,50€'
+  PVP_pesos_chilenos: '12.000'
+  PVP_ebook:  '4,50 €'
+  Printed_book_format: 'Medidas: 210 x 130 mm'
+  pages_number: '128 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
+  description: 'La gran novela americana (1923) es una novela experimental de William Carlos Williams. Aunque se le conoce sobre todo como poeta, Williams amplió con frecuencia los límites de la prosa a lo largo de su carrera. En la década decisiva del modernismo, Williams intentó probar la llamada "Gran Novela Americana", un concepto que alimentó un apasionado debate en los círculos académicos y artísticos de todo el país. Lejos de ser convencional, la novela de Williams es una incursión metaficcional en asuntos más posmodernos que modernos, un comentario disfrazado de narración y una sátira de la excesiva dependencia de los clichés en forma y contenido. "Si hay progreso, hay novela. Sin progreso no hay nada. Todo existe desde el principio. Yo existía al principio. Yo era un bebé baboso. Hoy he visto hierbas sin nombre... He golpeado la tierra con el nudillo. Sonaba a hueco. Estaba seca como el caucho. Eones de sequía. No ha llovido en quince días. No ha llovido. Nunca ha llovido. Nunca lloverá". La novela de Williams comienza con la palabra y un nacimiento. El lenguaje describe la experiencia de despertar a la experiencia, de llegar a la conciencia como un ser vivo en un mundo vivo. Utilizando palabras del habla cotidiana, construye una novela a partir de observaciones, un libro que permanece consciente de sí mismo en todo momento. Al igual que el niño cuya primera experiencia con la palabra escrita suele provenir de nombres y eslóganes extendidos sobre camiones y vallas publicitarias, el lector acaba aceptando su nueva realidad, un mundo en el que la gente ama y triunfa y fracasa, en el que la historia y el arte interceden para dar sentido a lo que pueden. La Gran Novela Americana muestra la forma experimental de Williams, estirando el significado de "novela" hasta su límite más lejano.'
+  cover: /assets/imgs/gran_novela.jpg
+  slug: la-gran-novela-americana
+  data-tpk: WWVX7KZ
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B0764BQVXL
+  google-play-store-link:
+
 - book: 'Una galaxia de luciérnagas'
   book_subtitle:
   author: 'Aina Tur'
@@ -23,29 +121,6 @@
   kobo-store-link: https://www.kobo.com/es/es/ebook/una-galaxia-de-luciernagas
   kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B08N9TQ2RV
   google-play-store-link: https://play.google.com/store/books/details?id=nYAIEAAAQBAJ
-
-- book: 'El creador'
-  book_subtitle:
-  author: 'Mynona / Salomo Friedlaender'
-  prologue: 'Prólogo de Claudio Naranjo'
-  translator: 'Traducción de Luisina Rüedi'
-  illustrator: 'Fotografías de Jerónimo Rüedi & Josue Eber Morales'
-  isbn: '978-84-940629-6-4'
-  depósito legal: 'B.10528-2013'
-  release_date: 'Octubre de 2019'
-  PVP: '18,50€'
-  PVP_ebook:  '6,00 €'
-  Printed_book_format: 'Medidas: 210 x 130 mm'
-  pages_number: '148 páginas'
-  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
-  description: 'Catalogado por su autor —Mynona («anónimo» al revés)— como «el experimento mágico más profundo desde Nostradamus», El Creador cuenta la historia de Gumprecht Weiss, un intelectual que se ha retirado de una vida de libertinaje para perseguir sus solitarias reflexiones filosóficas. Al principio soñando y luego encontrándose en la vigilia con una atractiva joven llamada Elvira, Weiss descubre que ella ha escapado de las garras de su tío, el barón, que la ha estado usando como conejillo de indias en sus experimentos metafísicos. Pero el Barón los alcanza y convence a Gumprecht y Elvira para que acudan a su laboratorio, para participar en un experimento destinado a salvar la brecha entre la conciencia despierta y el sueño, entrando en un espejo diseñado para doblar y mezclar realidades. La fábula filosófica de Mynona fue descrita por el legendario editor alemán Kurt Wolff como «una estación más lejana en el imaginativo tren del pensamiento de Hoffmann, Villiers, Poe, etc.», cuando apareció en 1920. La edición se completa con un prólogo del pensador chileno Claudio Naranjo y una serie de fotografías de los artistas plásticos Jerónimo Rüedi & Josue Eber Morales, que reinterpretan las ilustraciones originales de Alfred Kubin'
-  cover: /assets/imgs/elCreadorCover.jpg
-  slug: el-creador
-  data-tpk: G3M6LM
-  apple-store-link: https://books.apple.com/us/book/id1540420036
-  kobo-store-link: https://www.kobo.com/es/es/ebook/el-creador-3
-  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B07X5CGMXV
-  google-play-store-link: https://play.google.com/store/books/details?id=ory_DwAAQBAJ
 
 
 - book: 'La misteriosa maternidad del verso'
@@ -186,49 +261,3 @@
   kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B007EHCH6W
   google-play-store-link: https://play.google.com/store/books/details?id=Uzcc7URzagAC
 
-- book: 'La gran novela americana'
-  book_subtitle:
-  author: 'William Carlos Williams'
-  prologue: 'Prólogo de Mario Ortega'
-  translator: 'Traducción de Lucho Tapia'
-  illustrator: 'Imagen de cubierta de Alejandra Wolff'
-  isbn: '978-956-09587-2-3	'
-  depósito legal: ''
-  release_date: 'Enero de 2022'
-  PVP_euros: '14,50€'
-  PVP_pesos_chilenos: '12.000'
-  PVP_ebook:  '4,50 €'
-  Printed_book_format: 'Medidas: 210 x 130 mm'
-  pages_number: '128 páginas'
-  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
-  description: 'La gran novela americana (1923) es una novela experimental de William Carlos Williams. Aunque se le conoce sobre todo como poeta, Williams amplió con frecuencia los límites de la prosa a lo largo de su carrera. En la década decisiva del modernismo, Williams intentó probar la llamada "Gran Novela Americana", un concepto que alimentó un apasionado debate en los círculos académicos y artísticos de todo el país. Lejos de ser convencional, la novela de Williams es una incursión metaficcional en asuntos más posmodernos que modernos, un comentario disfrazado de narración y una sátira de la excesiva dependencia de los clichés en forma y contenido. "Si hay progreso, hay novela. Sin progreso no hay nada. Todo existe desde el principio. Yo existía al principio. Yo era un bebé baboso. Hoy he visto hierbas sin nombre... He golpeado la tierra con el nudillo. Sonaba a hueco. Estaba seca como el caucho. Eones de sequía. No ha llovido en quince días. No ha llovido. Nunca ha llovido. Nunca lloverá". La novela de Williams comienza con la palabra y un nacimiento. El lenguaje describe la experiencia de despertar a la experiencia, de llegar a la conciencia como un ser vivo en un mundo vivo. Utilizando palabras del habla cotidiana, construye una novela a partir de observaciones, un libro que permanece consciente de sí mismo en todo momento. Al igual que el niño cuya primera experiencia con la palabra escrita suele provenir de nombres y eslóganes extendidos sobre camiones y vallas publicitarias, el lector acaba aceptando su nueva realidad, un mundo en el que la gente ama y triunfa y fracasa, en el que la historia y el arte interceden para dar sentido a lo que pueden. La Gran Novela Americana muestra la forma experimental de Williams, estirando el significado de "novela" hasta su límite más lejano.'
-  cover: /assets/imgs/gran_novela.jpg
-  slug: la-gran-novela-americana
-  data-tpk: WWVX7KZ
-  apple-store-link:
-  kobo-store-link:
-  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B0764BQVXL
-  google-play-store-link:
-
-- book: 'Sueños de Valparaíso'
-  book_subtitle:
-  author: 'Jaume Benavente'
-  prologue: 'Textos de Cristóbal Gaete & Marcela Rivera'
-  translator: ''
-  illustrator: 'Ilustración de Carlos Hermosilla'
-  isbn: '978-956-09587-5-4'
-  depósito legal: 
-  release_date: 'Junio de 2023'
-  PVP: '18,00€'
-  PVP_ebook:  '5,50 €'
-  Printed_book_format: 'Medidas: 210 x 130 mm'
-  pages_number: '244 páginas'
-  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon Kindle)'
-  description: '«Valparaíso es una ciudad que siempre está al borde del precipicio y la pobreza, así que hay pocos que hoy sueñan esta ciudad como lo hace Jaume; (...). No es la postal detenida que se proyectó con la patrimonialización, sino una habitada por la fuerza de trabajo con la cara a la calle, a la que se sumaron con naturalidad los chinos y haitianos de los que nadie escribe en la literatura (...) Quisiera agregar varios elementos más: el fuego que acecha, los y las artistas profundamente aficionados que se ganan la vida en otra cosa, el trabajo del puerto que alimenta a los porteños, el constante «macheteo» de monedas, pero estos elementos no tienen tiempo, son transversales a la vida porteña. Es que varias épocas conviven en la ciudad, de forma tan evidente como nosotros cargamos nuestro pasado. Así mismo lo hace Sueños de Valparaíso cuando extiende el encuentro de sus personajes a su trayecto anterior» ——Cristóbal Gaete.'
-  cover: /assets/imgs/suenyos_de_valparaiso.jpg
-  slug: suenyos-de-valparaiso
-  data-tpk: WWVX7KZ
-  apple-store-link:
-  kobo-store-link:
-  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B0764BQVXL
-  google-play-store-link:
