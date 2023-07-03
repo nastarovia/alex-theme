@@ -210,24 +210,24 @@
   kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B0764BQVXL
   google-play-store-link:
 
-- book: 'Sueños de Valparaiso'
+- book: 'Sueños de Valparaíso'
   book_subtitle:
   author: 'Jaume Benavente'
   prologue: 'Textos de Cristóbal Gaete & Marcela Rivera'
   translator: ''
   illustrator: 'Ilustración de Carlos Hermosilla'
   isbn: '978-956-09587-5-4'
-  depósito legal: ''
-  release_date: 'Junio de 2023 '
+  depósito legal: 
+  release_date: 'Junio de 2023'
   PVP: '18,00€'
   PVP_ebook:  '5,50 €'
   Printed_book_format: 'Medidas: 210 x 130 mm'
   pages_number: '244 páginas'
-  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon Kindle)'
   description: '«Valparaíso es una ciudad que siempre está al borde del precipicio y la pobreza, así que hay pocos que hoy sueñan esta ciudad como lo hace Jaume; (...). No es la postal detenida que se proyectó con la patrimonialización, sino una habitada por la fuerza de trabajo con la cara a la calle, a la que se sumaron con naturalidad los chinos y haitianos de los que nadie escribe en la literatura (...) Quisiera agregar varios elementos más: el fuego que acecha, los y las artistas profundamente aficionados que se ganan la vida en otra cosa, el trabajo del puerto que alimenta a los porteños, el constante «macheteo» de monedas, pero estos elementos no tienen tiempo, son transversales a la vida porteña. Es que varias épocas conviven en la ciudad, de forma tan evidente como nosotros cargamos nuestro pasado. Así mismo lo hace Sueños de Valparaíso cuando extiende el encuentro de sus personajes a su trayecto anterior» ——Cristóbal Gaete.'
   cover: /assets/imgs/suenyos_de_valparaiso.jpg
   slug: suenyos-de-valparaiso
-  data-tpk: 
+  data-tpk: WWVX7KZ
   apple-store-link:
   kobo-store-link:
   kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B0764BQVXL
