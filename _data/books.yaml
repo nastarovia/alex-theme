@@ -44,7 +44,7 @@
   kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B07X5CGMXV
   google-play-store-link: https://play.google.com/store/books/details?id=ory_DwAAQBAJ
 
-- book: 'La pregunta por la mujer desde una perspectiva feminista'
+- book: 'La pregunta por la mujer desde una perspectiva socialista'
   book_subtitle: '& otros textos sobre feminismo y revolución'
   author: 'Eleanor Marx'
   prologue: 'Prólogo, edición & notas de Guillem Murphy'
@@ -59,13 +59,9 @@
   Printed_book_format: 'Medidas: 190 x 120 mm'
   pages_number: '172 páginas'
   ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
-  description: |
-    '«La verdad, no reconocida completamente siquiera por los más dispuestos a ayudar a la mujer, es que ella, como toda la clase trabajadora, está en una situación de opresión; que su posición, como la de ellos, es de una despiadada degradación. Las mujeres son las criaturas de una tiranía organizada de hombres, así como los trabajadores son las criaturas de una organizada tiranía de vagos. E incluso donde todo esto es comprendido, no hemos de cansarnos nunca de insistir en la falta de entendimiento acerca de que, para la mujer, así como para la clase trabajadora, ninguna solución de las dificultades y problemas que viven es realmente posible bajo las condiciones actuales de la sociedad.»
-
-    “Eleanor Marx cambió el mundo y en el proceso se revolucionó a sí misma»—Rachel Holmes.'
-
+  description: '«La verdad, no reconocida completamente siquiera por los más dispuestos a ayudar a la mujer, es que ella, como toda la clase trabajadora, está en una situación de opresión; que su posición, como la de ellos, es de una despiadada degradación. Las mujeres son las criaturas de una tiranía organizada de hombres, así como los trabajadores son las criaturas de una organizada tiranía de vagos. E incluso donde todo esto es comprendido, no hemos de cansarnos nunca de insistir en la falta de entendimiento acerca de que, para la mujer, así como para la clase trabajadora, ninguna solución de las dificultades y problemas que viven es realmente posible bajo las condiciones actuales de la sociedad.»'
   cover: /assets/imgs/eleanor_marx_2.jpg
-  slug: eleanor-marx
+  slug: la-pregunta-por-la-mujer-desde-una-perspectiva-socialista
   data-tpk: WWVX7KZ
   apple-store-link:
   kobo-store-link:
@@ -78,16 +74,16 @@
   prologue: 'Prólogo de Mario Ortega'
   translator: 'Traducción de Lucho Tapia'
   illustrator: 'Imagen de cubierta de Alejandra Wolff'
-  isbn: '978-956-09587-2-3	'
+  isbn: '978-956-09587-2-3'
   depósito legal: ''
-  release_date: 'Enero de 2022'
+  release_date: 'Marzo de 2022'
   PVP_euros: '14,50€'
   PVP_pesos_chilenos: '12.000'
   PVP_ebook:  '4,50 €'
-  Printed_book_format: 'Medidas: 210 x 130 mm'
+  Printed_book_format: 'Medidas: 190 x 110 mm'
   pages_number: '128 páginas'
   ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
-  description: 'La gran novela americana (1923) es una novela experimental de William Carlos Williams. Aunque se le conoce sobre todo como poeta, Williams amplió con frecuencia los límites de la prosa a lo largo de su carrera. En la década decisiva del modernismo, Williams intentó probar la llamada "Gran Novela Americana", un concepto que alimentó un apasionado debate en los círculos académicos y artísticos de todo el país. Lejos de ser convencional, la novela de Williams es una incursión metaficcional en asuntos más posmodernos que modernos, un comentario disfrazado de narración y una sátira de la excesiva dependencia de los clichés en forma y contenido. "Si hay progreso, hay novela. Sin progreso no hay nada. Todo existe desde el principio. Yo existía al principio. Yo era un bebé baboso. Hoy he visto hierbas sin nombre... He golpeado la tierra con el nudillo. Sonaba a hueco. Estaba seca como el caucho. Eones de sequía. No ha llovido en quince días. No ha llovido. Nunca ha llovido. Nunca lloverá". La novela de Williams comienza con la palabra y un nacimiento. El lenguaje describe la experiencia de despertar a la experiencia, de llegar a la conciencia como un ser vivo en un mundo vivo. Utilizando palabras del habla cotidiana, construye una novela a partir de observaciones, un libro que permanece consciente de sí mismo en todo momento. Al igual que el niño cuya primera experiencia con la palabra escrita suele provenir de nombres y eslóganes extendidos sobre camiones y vallas publicitarias, el lector acaba aceptando su nueva realidad, un mundo en el que la gente ama y triunfa y fracasa, en el que la historia y el arte interceden para dar sentido a lo que pueden. La Gran Novela Americana muestra la forma experimental de Williams, estirando el significado de "novela" hasta su límite más lejano.'
+  description: 'La gran novela americana (1923) es una novela experimental de William Carlos Williams. Aunque se le conoce sobre todo como poeta, Williams amplió con frecuencia los límites de la prosa a lo largo de su carrera. En la década decisiva del modernismo, Williams intentó probar la llamada "Gran Novela Americana", un concepto que alimentó un apasionado debate en los círculos académicos y artísticos de todo el país. Lejos de ser convencional, la novela de Williams es una incursión metaficcional en asuntos más posmodernos que modernos, un comentario disfrazado de narración y una sátira de la excesiva dependencia de los clichés en forma y contenido. «Si hay progreso, hay novela. Sin progreso no hay nada. Todo existe desde el principio. Yo existía al principio. Yo era un bebé baboso. Hoy he visto hierbas sin nombre... He golpeado la tierra con el nudillo. Sonaba a hueco. Estaba seca como el caucho. Eones de sequía. No ha llovido en quince días. No ha llovido. Nunca ha llovido. Nunca lloverá». La novela de Williams comienza con la palabra y un nacimiento. El lenguaje describe la experiencia de despertar a la experiencia, de llegar a la conciencia como un ser vivo en un mundo vivo. Utilizando palabras del habla cotidiana, construye una novela a partir de observaciones, un libro que permanece consciente de sí mismo en todo momento. Al igual que el niño cuya primera experiencia con la palabra escrita suele provenir de nombres y eslóganes extendidos sobre camiones y vallas publicitarias, el lector acaba aceptando su nueva realidad, un mundo en el que la gente ama y triunfa y fracasa, en el que la historia y el arte interceden para dar sentido a lo que pueden. La Gran Novela Americana muestra la forma experimental de Williams, estirando el significado de «novela» hasta su límite más lejano.'
   cover: /assets/imgs/gran_novela.jpg
   slug: la-gran-novela-americana
   data-tpk: WWVX7KZ
@@ -95,6 +91,24 @@
   kobo-store-link:
   kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B0764BQVXL
   google-play-store-link:
+
+- book: 'Púrpura imperial'
+  book_subtitle:
+  author: 'Edgar Saltus'
+  prologue: 'Prólogo de Jason DeBoer'
+  translator: 'Traducción al castellano de Guillem Murphy'
+  illustrator: 'Ilustración de Sir Lawrence Alma-Tadema'
+  isbn: '978-84-940629-6-4'
+  dep0sito_legal: 'B.10528-2013'
+  release_date: 'Marzo de 2021'
+  PVP: '18,50€'
+  PVP_ebook:  '6,50 €'
+  Printed_book_format: 'Medidas: 210 x 130 mm'
+  pages_number: '160 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
+  description: 'Precursor de la no ficción creativa, Edgar Saltus se inspira en los textos de Suetonio y Tácito para hacer un retrato subyugante de la Roma de los emperadores. Su propósito no es reconstruir los hechos históricos, sino capturar el espíritu de una civilización, haciéndonos respirar la atmósfera de su decadencia. Desde una visión muy pesimista de la naturaleza humana, el autor aborda el mal como una oportunidad para la belleza. Aunque en Púrpura imperial se relatan con admiración apenas contenida los excesos de los emperadores, no estamos ante una celebración de la depravación, sino de sus posibilidades estéticas. Para Saltus, los emperadores no eran peores que el resto de los mortales, pero, poderosos como dioses, podían conducir su abyección a los confines de lo posible. En esa circunstancia excepcional, donde está ausente toda moral, el autor vislumbra una ocasión única para demostrar su condición de gran estilista: en Púrpura imperial Saltus talla su prosa con la precisión de Flaubert, la imaginería decadente de Huysmans y la expresividad de Poe. El efecto es deslumbrante, un tapiz donde la belleza prevalece sobre el horror.'
+  cover: /assets/imgs/purpuraImperialCover.jpg
+  slug: purpura-imperial
 
 - book: 'Una galaxia de luciérnagas'
   book_subtitle:
@@ -121,7 +135,6 @@
   kobo-store-link: https://www.kobo.com/es/es/ebook/una-galaxia-de-luciernagas
   kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B08N9TQ2RV
   google-play-store-link: https://play.google.com/store/books/details?id=nYAIEAAAQBAJ
-
 
 - book: 'La misteriosa maternidad del verso'
   book_subtitle: '/ 3 conferencias'

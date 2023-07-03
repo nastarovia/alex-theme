@@ -1,4 +1,4 @@
 ---
-layout: book-page-new
+layout: book-page
 title: 'Púrpura imperial'
 ---
