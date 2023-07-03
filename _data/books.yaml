@@ -68,23 +68,42 @@
   kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B0764BQVXL
   google-play-store-link:
 
-- book: 'La gran novela americana'
-  book_subtitle:
-  author: 'William Carlos Williams'
+- book: Liber amoris
+  book_subtitle: 'o el nuevo Pigmalión'
+  author: 'William Hazlitt'
+  prologue: 'Prólogo de Zeeba Sadiq'
+  translator: 'Traducción de Alfil Gómez'
+  illustrator: 'Imagen de cubierta de Alejandra Wolff'
+  isbn: '978-956-09587-3-0	'
+  depósito legal: ''
+  release_date: 'Marzo de 2023'
+  PVP_euros: '16,50€'
+  PVP_pesos_chilenos: '12.000'
+  PVP_ebook:  '4,50 €'
+  Printed_book_format: 'Medidas: 190 x 120 mm'
+  pages_number: '172 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
+  description: '«La más honesta de las confesiones literarias, con su singular falta de vanidad, el Liber Amoris es el estudio de una mente altamente intelectual perjudicada por un amor irremediable y no correspondido, una obsesión tan absoluta que la razón y el intelecto estaban desarmados contra la manía, una mente elevada que no ofrecía inmunidad a las vulgaridades de las ansias emocionales y los celos».——Zeeba Sadiq.'
+  cover: /assets/imgs/liberAmoris_cover_5.jpg
+  slug: liber-amoris
+  kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B0764BQVXL
+  google-play-store-link:
+
+- book: La gran novela americana
+  author: William Carlos Williams
   prologue: 'Prólogo de Mario Ortega'
   translator: 'Traducción de Lucho Tapia'
   illustrator: 'Imagen de cubierta de Alejandra Wolff'
   isbn: '978-956-09587-2-3'
-  depósito legal: ''
+  depósito legal: 
   release_date: 'Marzo de 2022'
   PVP_euros: '14,50€'
   PVP_pesos_chilenos: '12.000'
   PVP_ebook:  '4,50 €'
   Printed_book_format: 'Medidas: 190 x 110 mm'
-  pages_number: '128 páginas'
-  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
-  description: 'La gran novela americana (1923) es una novela experimental de William Carlos Williams. Aunque se le conoce sobre todo como poeta, Williams amplió con frecuencia los límites de la prosa a lo largo de su carrera. En la década decisiva del modernismo, Williams intentó probar la llamada "Gran Novela Americana", un concepto que alimentó un apasionado debate en los círculos académicos y artísticos de todo el país. Lejos de ser convencional, la novela de Williams es una incursión metaficcional en asuntos más posmodernos que modernos, un comentario disfrazado de narración y una sátira de la excesiva dependencia de los clichés en forma y contenido. «Si hay progreso, hay novela. Sin progreso no hay nada. Todo existe desde el principio. Yo existía al principio. Yo era un bebé baboso. Hoy he visto hierbas sin nombre... He golpeado la tierra con el nudillo. Sonaba a hueco. Estaba seca como el caucho. Eones de sequía. No ha llovido en quince días. No ha llovido. Nunca ha llovido. Nunca lloverá». La novela de Williams comienza con la palabra y un nacimiento. El lenguaje describe la experiencia de despertar a la experiencia, de llegar a la conciencia como un ser vivo en un mundo vivo. Utilizando palabras del habla cotidiana, construye una novela a partir de observaciones, un libro que permanece consciente de sí mismo en todo momento. Al igual que el niño cuya primera experiencia con la palabra escrita suele provenir de nombres y eslóganes extendidos sobre camiones y vallas publicitarias, el lector acaba aceptando su nueva realidad, un mundo en el que la gente ama y triunfa y fracasa, en el que la historia y el arte interceden para dar sentido a lo que pueden. La Gran Novela Americana muestra la forma experimental de Williams, estirando el significado de «novela» hasta su límite más lejano.'
-  
+  pages_number: '160 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon Kindle)'
+  description: 'La gran novela americana (1923) es una novela experimental de William Carlos Williams. Aunque se le conoce sobre todo como poeta, Williams amplió con frecuencia los límites de la prosa a lo largo de su carrera. En la década decisiva del modernismo, Williams intentó probar la llamada «Gran Novela Americana», un concepto que alimentó un apasionado debate en los círculos académicos y artísticos de todo el país. Lejos de ser convencional, la novela de Williams es una incursión metaficcional en asuntos más posmodernos que modernos, un comentario disfrazado de narración y una sátira de la excesiva dependencia de los clichés en forma y contenido. «Si hay progreso, hay novela. Sin progreso no hay nada. Todo existe desde el principio. Yo existía al principio. Yo era un bebé baboso. Hoy he visto hierbas sin nombre... He golpeado la tierra con el nudillo. Sonaba a hueco. Estaba seca como el caucho. Eones de sequía. No ha llovido en quince días. No ha llovido. Nunca ha llovido. Nunca lloverá». La novela de Williams comienza con la palabra y un nacimiento. El lenguaje describe la experiencia de despertar a la experiencia, de llegar a la conciencia como un ser vivo en un mundo vivo. Utilizando palabras del habla cotidiana, construye una novela a partir de observaciones, un libro que permanece consciente de sí mismo en todo momento. Al igual que el niño cuya primera experiencia con la palabra escrita suele provenir de nombres y eslóganes extendidos sobre camiones y vallas publicitarias, el lector acaba aceptando su nueva realidad, un mundo en el que la gente ama y triunfa y fracasa, en el que la historia y el arte interceden para dar sentido a lo que pueden. La Gran Novela Americana muestra la forma experimental de Williams, estirando el significado de «novela» hasta su límite más lejano.'
   cover: /assets/imgs/gran_novela.jpg
   slug: la-gran-novela-americana
   
@@ -103,7 +122,7 @@
   pages_number: '160 páginas'
   ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
   description: 'Precursor de la no ficción creativa, Edgar Saltus se inspira en los textos de Suetonio y Tácito para hacer un retrato subyugante de la Roma de los emperadores. Su propósito no es reconstruir los hechos históricos, sino capturar el espíritu de una civilización, haciéndonos respirar la atmósfera de su decadencia. Desde una visión muy pesimista de la naturaleza humana, el autor aborda el mal como una oportunidad para la belleza. Aunque en Púrpura imperial se relatan con admiración apenas contenida los excesos de los emperadores, no estamos ante una celebración de la depravación, sino de sus posibilidades estéticas. Para Saltus, los emperadores no eran peores que el resto de los mortales, pero, poderosos como dioses, podían conducir su abyección a los confines de lo posible. En esa circunstancia excepcional, donde está ausente toda moral, el autor vislumbra una ocasión única para demostrar su condición de gran estilista: en Púrpura imperial Saltus talla su prosa con la precisión de Flaubert, la imaginería decadente de Huysmans y la expresividad de Poe. El efecto es deslumbrante, un tapiz donde la belleza prevalece sobre el horror.'
-  cover: /assets/imgs/purpuraImperialCover.jpg
+  cover: /assets/imgs/purpura_imperial_cover_thumb.jpg
   slug: purpura-imperial
 
 - book: 'Una galaxia de luciérnagas'

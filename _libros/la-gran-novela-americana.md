@@ -1,4 +1,4 @@
 ---
-layout: book-page
-title: la gran novela americana
+  layout: book-page
+  title: La gran novela americana
 ---
