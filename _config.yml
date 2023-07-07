@@ -2,7 +2,11 @@ title: 'La Vorágine'
 tagline: 'Un laboratorio de edición digital'
 email: info@librosdelavoragine.com
 description: >- # this means to ignore newlines until "baseurl:"
-  La Vorágine es una editorial independiente de Barcelona, dedicada a la publicación de libros deliciosamente extraños, que campan en las fronteras entre géneros, esos lugares peligrosos y propensos a la belleza. Nuestros libros son (casi siempre) primeras traducciones de autores esenciales y nunca (o muy poco) publicados en lengua española, en ediciones que procuramos sean completas, accesibles y cuidadas.
+  Libros de la vorágine es una micro editorial independiente, con un pie en Barcelona y otro en Santiago de Chile, nacida el año 2011 y cuya historia se ha materializado en quince títulos.
+  
+  Ofrecemos un catálogo heterogéneo, editado principalmente en castellano (aunque hayamos publicado también algunos títulos en catalán), hecho de clásicos olvidados, ensayos urgentes, y ficción reveladora. Publicamos libros no editados anteriormente en castellano, en traducciones cuidadas, y con enfasis particular en la accesibilidad.
+
+  A pesar de la pluralidad de géneros y temáticas, nuestras publicaciones tienen un común denominador: la voluntad de despertar el asombro en el lector y promover la edición libre desde los márgenes de la cultura."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
