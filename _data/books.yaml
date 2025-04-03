@@ -1,3 +1,35 @@
+- book: 'La novia lejana'
+  book_subtitle:
+  author: 'Stella Benson'
+  prologue: 'Marcela Rivera'
+  translator: 'Mario Ortega'
+  illustrator: 'Ilustración de Catherine Clemeçon'
+  isbn: '978-84-120736-5-2'
+  depósito legal: 
+  release_date: 'Abril de 2025'
+  PVP: '19,50€'
+  PVP_ebook:  '6,50 €'
+  Printed_book_format: 'Medidas: 220 x 140 mm'
+  pages_number: '306 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon Kindle)'
+  description: |-
+    La novia lejana (publicada en 1930 en Estados Unidos y, posteriormente, en el Reino Unido bajo el título Tobit Transplanted en 1931) es la historia de dos familias de refugiados rusos  en Manchuria y Corea durante los años 20 del siglo pasado.  En esa tierra de nadie, que carecía de fronteras precisas y poblaban toda clase de expatriados, Stella Benson extiende su lienzo y traza un retrato feroz y furiosamente tierno de estos emigrantes y su lucha por preservar una memoria que se desvanece.
+    Construida como un remake de la historia bíblica de Tobias y el Ángel;  y tejida como una precisa coreografía, donde se cruzan personajes improbables y rotundamente vivos, La novia lejana habla  varios dialectos diferentes. Como historia de amor es original; como estudio de carácter es única; y como fresco sobre los terrores y ocasionales bellezas de la emigración resulta iluminadora e inquietante. El viejo Malinin, cuya afición es la muerte y cuyo arte es la autocompasión, podría haber salido de Chéjov: de hecho, todo el libro, en su delicado pero preciso equilibrio de humor, tristeza, ternura y suave escepticismo, podría haber sido escrito por Chéjov.
+    
+    Cuando se publicó en 1930, La novia lejana se asomó al mundo, respiró un momento, y en apariencia expiró, para ser seguida, con trágica brevedad, por su creadora: El 7 de diciembre de 1933 en la ciudad de Hongai, Tonkín, Indochina francesa, a la edad de cuarenta y un años, Stella Benson murió de neumonía. Había llevado una vida azarosa e inquieta; escribió con delicadeza y sinceridad; no merece ser olvidada.
+
+
+    «Si la tan manoseada frase “es una escritora nata” significa algo, Stella Benson lo es. Parece escribir con toda naturalidad, sin esfuerzo. Como un niño recoge flores [...] La fantasía exuberante es rara, el amor a la vida es raro, y un escritor que no se avergüence de la felicidad más raro todavía».—Katherine Mansfield.
+
+  cover: /assets/imgs/la_novia_lejana_cover.jpg
+  slug: la-novia-lejana
+  data-tpk: 
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link: 
+  google-play-store-link:
+
+
 
 - book: 'La casa de los solitarios'
   book_subtitle:
