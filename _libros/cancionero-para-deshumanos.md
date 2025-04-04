@@ -1,4 +1,4 @@
 ---
   layout: book-page
-  title: 'Cancionero para deshumanos'
+  title: cancionero para deshumanos
 ---
