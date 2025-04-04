@@ -1,3 +1,33 @@
+- book: 'Peer el afortunado'
+  book_subtitle:
+  author: 'Hans Christian Andersen'
+  posfacio: 'Lucho Tapia'
+  translator: 'Mara Schultz'
+  illustrator: 'Ilustración de Maria Josep Subirachs'
+  isbn: '978-84-120736-7-6 '
+  depósito legal: 
+  release_date: 'Abril de 2025'
+  PVP: '18€'
+  PVP_ebook:  '6,50 €'
+  Printed_book_format: 'Medidas: 190 x 120 mm'
+  pages_number: '132 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon Kindle)'
+  description: |-
+    La novela Lykke-Peer, _Peer el Afortunado_, es la última gran obra de H. C. Andersen, escrita en la primavera y el verano de 1870, a su regreso de un viaje de seis meses al extranjero. Terminó la obra el 19 de julio. y fue publicado en noviembre por la editorial Reitzel.
+    La novela Lykke-Peer posee una frescura espontánea que los años no han marchitado y parece en parte nacido de una inspiración repentina. H. C. Andersen retoma en él el tema de Aladino, que sentía profundamente ligado a su destino y que había tratado de diversas formas en sus cuentos de hadas. En Lykke-Peer, la novela del genio elegido cuya estrella no deja de ascender, ofreció un cuadro realista, pero poblado de colores brillantes. 
+    Lucky Peer está rica en rasgos autobiográficos; muchas partes son una descripción idealizada de la primera juventud del escritor.
+    La relación entre Peer, hijo de pobres, y Félix, hijo de un rico comerciante, es un reflejo de su amistad con su coetáneo Edvard Collin (vista bajo la luz nada idealizada de la injusticia social). Para las escenas de Peer en la escuela de ballet, Andersen se basó en sus experiencias personales de sus años en el teatro, y el ménage de la pareja Gabriel, descrito con mucho humor, es una reelaboración suavizada y gentil del sórdido mundo real de Meisling en la época de sus estudios en Slagelse y Elsinore. Andersen realizó sus sueños teatrales en Peer, que triunfó en el escenario donde el gran escritor había sufrido las derrotas más dolorosas.
+    
+
+  cover: /assets/imgs/peer_cover.jpg
+  slug: peer-el-afortunado
+  data-tpk: 
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link: 
+  google-play-store-link:
+
+
 - book: 'La novia lejana'
   book_subtitle:
   author: 'Stella Benson'
