@@ -1,7 +1,38 @@
+- book: 'cancionero para deshumanos'
+  book_subtitle:
+  author: 'francisco de león'
+  prologue: 'Silvana Rabinovich & Fernando García Moggia'
+  translator: ''
+  illustrator: 'Ilustración de Ana Chagra'
+  isbn: '978-84-120736-8-3 '
+  depósito legal: 
+  release_date: 'Abril de 2025'
+  PVP: '11€'
+  PVP_ebook:  '6,50 €'
+  Printed_book_format: 'Medidas: 190 x 120 mm'
+  pages_number: '78 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon Kindle)'
+  description: |-
+    Nunca sabemos si un poema tiene  razón de ser, en el mejor de los casos,  un poema aparece en el mundo, para acompañar un acontecimiento, una situación determinada, un momento, y sobre todo, acompañar a quienes han vivido ese momento,  carne viva sea a través de ese extraño fenómeno que llamamos contemporaneidad. Este poemario nació, acompañando a dos momentos que tristemente se extienden más allá del momento en que el punto final del último poema fuera colocado: la desaparición forzada en México y el genocidio que Israel ejerce sobre el pueblo palestino. Este poemario nació, pues, con la clara conciencia de que las palabras nada pueden frente a la violencia que quienes le ejercen intentan normalizar, pero nace también con la esperanza —esa compañera que no podemos abandonar jamás— de que en una palabra, en la que sea, nos encontremos y sepamos devolver esa violencia a quienes ejercen, para liberar así a quienes la padecen, pues es así, y solo así, seremos también libres.
+
+ 
+
+
+  cover: /assets/imgs/cancionero_para_deshumanos_cover.jpg
+  slug: cancionero-para-deshumanos
+  data-tpk: 
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link: 
+  google-play-store-link:
+
+
+
+
 - book: 'Peer el afortunado'
   book_subtitle:
   author: 'Hans Christian Andersen'
-  posfacio: 'Lucho Tapia'
+  prologue: 'Lucho Tapia'
   translator: 'Mara Schultz'
   illustrator: 'Ilustración de Maria Josep Subirachs'
   isbn: '978-84-120736-7-6 '
