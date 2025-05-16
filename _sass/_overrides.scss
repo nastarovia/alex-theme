@@ -1,3 +1,13 @@
 // No overrides so far
 
-.navbar {margin-bottom: 1.5rem solid;}
+// No overrides so far
+
+.navbar-menu {border-bottom:  1px solid #a50043 !important; border-top: 1px solid #a50043 !important }
+
+.body, .hero, .is-white, .section {background-color: #f7eacd !important}
+
+.has-text-info {color: #a50043 !important}
+
+.navbar-item:hover {color: #a50043 !important; background-color: transparent !important}
+
+.button.is-info.is-inverted {color: #a50043 !important; background-color: transparent !important}
