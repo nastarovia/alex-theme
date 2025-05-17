@@ -1,3 +1,34 @@
+- book: 'La cámara de Arthur Rimbaud'
+  book_subtitle:
+  author: 'Paula Sanchez-Cardona'
+  prologue: 
+  translator: ''
+  illustrator: ''
+  isbn: '978-84-120736-8-3'
+  depósito legal: 
+  release_date: 'Abril de 2025'
+  PVP: '19,50€'
+  PVP_ebook:  '8,50 €'
+  Printed_book_format: 'Medidas: 220 x 140 mm'
+  pages_number: '326 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon Kindle)'
+  description: |-
+    
+ 
+
+
+  cover: /assets/imgs/la_camara_de_rimbaud.jpg
+  slug: la-camara-de-arthur-rimbaud
+  data-tpk: 
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link: 
+  google-play-store-link:
+
+
+
+
+
 - book: 'cancionero para deshumanos'
   book_subtitle:
   author: 'francisco de león'
