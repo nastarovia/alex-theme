@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Proximamente
+title: proximamente
 permalink: /proximamente/
 ---
 {% include gallery-next.html %}
+
+
