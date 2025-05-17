@@ -176,6 +176,37 @@
   kindle-store-link: https://kdp.amazon.com/amazon-dp-action/es/dualbookshelf.marketplacelink/B0764BQVXL
   google-play-store-link:
 
+
+- book: 'Dos cuentos'
+  book_subtitle:
+  author: 'John Matthew Barrie'
+  prologue: ''
+  translator: 'Lucho Tapia'
+  illustrator: 'Ilustración de '
+  isbn: '978-84-120736-3-8'
+  depósito legal: 
+  release_date: 'Abril de 2024'
+  PVP: '10€'
+  PVP_ebook:  '3,50 €'
+  Printed_book_format: 'Medidas: 180 x 110 mm'
+  pages_number: '76 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon Kindle)'
+  description: |-
+    La novela Lykke-Peer, _Peer el Afortunado_, es la última gran obra de H. C. Andersen, escrita en la primavera y el verano de 1870, a su regreso de un viaje de seis meses al extranjero. Terminó la obra el 19 de julio. y fue publicado en noviembre por la editorial Reitzel.
+    La novela Lykke-Peer posee una frescura espontánea que los años no han marchitado y parece en parte nacido de una inspiración repentina. H. C. Andersen retoma en él el tema de Aladino, que sentía profundamente ligado a su destino y que había tratado de diversas formas en sus cuentos de hadas. En Lykke-Peer, la novela del genio elegido cuya estrella no deja de ascender, ofreció un cuadro realista, pero poblado de colores brillantes. 
+    Lucky Peer está rica en rasgos autobiográficos; muchas partes son una descripción idealizada de la primera juventud del escritor.
+    La relación entre Peer, hijo de pobres, y Félix, hijo de un rico comerciante, es un reflejo de su amistad con su coetáneo Edvard Collin (vista bajo la luz nada idealizada de la injusticia social). Para las escenas de Peer en la escuela de ballet, Andersen se basó en sus experiencias personales de sus años en el teatro, y el ménage de la pareja Gabriel, descrito con mucho humor, es una reelaboración suavizada y gentil del sórdido mundo real de Meisling en la época de sus estudios en Slagelse y Elsinore. Andersen realizó sus sueños teatrales en Peer, que triunfó en el escenario donde el gran escritor había sufrido las derrotas más dolorosas.
+    
+
+  cover: /assets/imgs/dos_cuentos_cover.jpg
+  slug: dos-cuentos
+  data-tpk: 
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link: 
+  google-play-store-link:
+
+
 - book: 'El creador'
   book_subtitle:
   author: 'Mynona / Salomo Friedlaender'
@@ -279,6 +310,37 @@
   description: 'Precursor de la no ficción creativa, Edgar Saltus se inspira en los textos de Suetonio y Tácito para hacer un retrato subyugante de la Roma de los emperadores. Su propósito no es reconstruir los hechos históricos, sino capturar el espíritu de una civilización, haciéndonos respirar la atmósfera de su decadencia. Desde una visión muy pesimista de la naturaleza humana, el autor aborda el mal como una oportunidad para la belleza. Aunque en Púrpura imperial se relatan con admiración apenas contenida los excesos de los emperadores, no estamos ante una celebración de la depravación, sino de sus posibilidades estéticas. Para Saltus, los emperadores no eran peores que el resto de los mortales, pero, poderosos como dioses, podían conducir su abyección a los confines de lo posible. En esa circunstancia excepcional, donde está ausente toda moral, el autor vislumbra una ocasión única para demostrar su condición de gran estilista: en Púrpura imperial Saltus talla su prosa con la precisión de Flaubert, la imaginería decadente de Huysmans y la expresividad de Poe. El efecto es deslumbrante, un tapiz donde la belleza prevalece sobre el horror.'
   cover: /assets/imgs/purpura_imperial_cover_thumb.jpg
   slug: purpura-imperial
+
+
+- book: 'La ronda'
+  book_subtitle:
+  author: 'Arthur Schnitzler'
+  prologue: 'Sigmund Freud'
+  translator: 'Raquel Oya'
+  illustrator: |-
+    _El beso_ , de Gustav Klimt
+  isbn: '978-84-940629-0-2'
+  depósito legal: 
+  release_date: 'Abril de 2012'
+  PVP: '14,5€'
+  PVP_ebook:  '4,50 €'
+  Printed_book_format: 'Medidas: 190 x 120 mm'
+  pages_number: '130 páginas'
+  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon Kindle)'
+  description: |-
+    La novela Lykke-Peer, _Peer el Afortunado_, es la última gran obra de H. C. Andersen, escrita en la primavera y el verano de 1870, a su regreso de un viaje de seis meses al extranjero. Terminó la obra el 19 de julio. y fue publicado en noviembre por la editorial Reitzel.
+    La novela Lykke-Peer posee una frescura espontánea que los años no han marchitado y parece en parte nacido de una inspiración repentina. H. C. Andersen retoma en él el tema de Aladino, que sentía profundamente ligado a su destino y que había tratado de diversas formas en sus cuentos de hadas. En Lykke-Peer, la novela del genio elegido cuya estrella no deja de ascender, ofreció un cuadro realista, pero poblado de colores brillantes. 
+    Lucky Peer está rica en rasgos autobiográficos; muchas partes son una descripción idealizada de la primera juventud del escritor.
+    La relación entre Peer, hijo de pobres, y Félix, hijo de un rico comerciante, es un reflejo de su amistad con su coetáneo Edvard Collin (vista bajo la luz nada idealizada de la injusticia social). Para las escenas de Peer en la escuela de ballet, Andersen se basó en sus experiencias personales de sus años en el teatro, y el ménage de la pareja Gabriel, descrito con mucho humor, es una reelaboración suavizada y gentil del sórdido mundo real de Meisling en la época de sus estudios en Slagelse y Elsinore. Andersen realizó sus sueños teatrales en Peer, que triunfó en el escenario donde el gran escritor había sufrido las derrotas más dolorosas.
+    
+
+  cover: /assets/imgs/Cover_LaRonda.jpg
+  slug: la-ronda
+  data-tpk: 
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link: 
+  google-play-store-link:
 
 - book: 'Una galaxia de luciérnagas'
   book_subtitle:
