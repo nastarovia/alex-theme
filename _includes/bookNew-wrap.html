@@ -1,5 +1,5 @@
-{% assign books = site.data.newbooks %}
-{% for item in books %}
+{% assign books = site.data.novedades %}
+{% for item in novedades %}
 {% if item.book == page.title %}
 
 
@@ -17,7 +17,19 @@
     {% include book-info-container.html %}
           <p class="has-text-justified is-size-5 is-margin-1-mobile">{{ item.description | markdownify }}</p>
   </div>
-  
+  <div class="column is-2 ">
+
+    <div class="card">
+  {% include printed-book-button.html %}
+    </div>
+
+    <div class="card">
+  {% include ebook-buttons.html %}
+    </div>
+
+  </div>
+  <div class="column is-1">
+  </div>
 {% endif %}
 {% endfor %}
 

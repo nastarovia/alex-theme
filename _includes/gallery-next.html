@@ -1,14 +1,14 @@
-{% assign books = site.data.nextbooks %}
+{% assign books = site.data.novedades %}
 <section class="gallery columns is-centered">
 
-  <div class="column is-8 is-centered ">
+  <div class="column is-12 is-centered ">
     <div class="gallery columns is-multiline is-centered ">
 {% for item in books %}
 
         <article class="column is-4-desktop is-6-tablet is-3-widescreen">
           <card>
           <figure class="image is-2by3">
-            <a href="{{ site.baseurl }}/proximamente/{{ item.slug }}">
+            <a href="{{ site.baseurl }}/novedades/{{ item.slug }}">
             <img src="{{ item.cover }}"  />
             </a>
           </figure>

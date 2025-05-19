@@ -6,7 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   
   Ofrecemos un catálogo heterogéneo, editado principalmente en castellano (aunque hayamos publicado también algunos títulos en catalán), hecho de clásicos olvidados, ensayos urgentes, y ficción reveladora. Publicamos libros no editados anteriormente en castellano, en traducciones cuidadas, y con enfasis particular en la accesibilidad.
 
-  A pesar de la pluralidad de géneros y temáticas, nuestras publicaciones tienen un común denominador: la voluntad de despertar el asombro en el lector y promover la edición libre desde los márgenes de la cultura."
+  A pesar de la pluralidad de géneros y temáticas, nuestras publicaciones tienen un común denominador: la voluntad de despertar el asombro en el lector y promover la edición libre desde los márgenes de la cultura.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -41,9 +41,9 @@ collections:
   libros:
     output: true
     permalink: /libros/:path/
-  proximamente:
+  novedades:
     output: true
-    permalink: /proximamente/:path/
+    permalink: /novedades/:path/
 
 #social media
 
