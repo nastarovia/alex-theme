@@ -1,4 +1,4 @@
-- book: 'charlotte-sometimes'
+- book: 'Charlotte sometimes'
   book_subtitle: ''
   author: 'Penélope Farmer'
   prologue: 'Prólogo de Marcelo González'
@@ -17,20 +17,4 @@
   cover: /assets/imgs/charlotte_sometimes_cover.jpg
   slug: charlotte-sometimes
 
-- book: Imaginary letters
-  author: 'Penélope Farmer'
-  prologue: 'Prólogo de Marcelo González'
-  translator: 'Traducción al castellano de Lucho Tapia'
-  illustrator: 'Ilustraciones de Catherine Clemençon'
-  isbn: '978-84-120736-2-1'
-  deposito_legal: 'B.10528-2013'
-  release_date: 'Junio de 2025'
-  PVP: '22,50€'
-  PVP_ebook:  '6,50 €'
-  Printed_book_format: 'Medidas: 220 x 140 mm'
-  pages_number: '160 páginas'
-  ebook_format: 'Disponible en Epub3 & Mobi (para Amazon KIndle)'
-  description: 'llllll'
-  
-  cover: /assets/imgs/charlotte_sometimes_cover.jpg
-  slug: charlotte-sometimes
+
