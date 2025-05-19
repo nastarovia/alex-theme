@@ -54,6 +54,7 @@
 
   cover: /assets/imgs/peer_cover.jpg
   slug: peer-el-afortunado
+  book-excerpt-link: /assets/pdf/peer_el_afortunado_excerpt.pdf
   printed-book-link: https://libros-de-la-voragine.sumupstore.com/producto/peer-el-afortunado
   apple-store-link:
   kobo-store-link:
@@ -338,6 +339,7 @@
 
   cover: /assets/imgs/Cover_LaRonda.jpg
   slug: la-ronda
+  
   printed-book-link: https://libros-de-la-voragine.sumupstore.com/producto/la-ronda
   apple-store-link:
   kobo-store-link:
