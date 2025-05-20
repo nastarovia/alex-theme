@@ -22,6 +22,8 @@
 
   cover: /assets/imgs/cancionero-para-deshumanos.jpg
   slug: cancionero-para-deshumanos
+  book-excerpt-link: /assets/pdf/canto_para_deshumanos_excerpt.pdf
+
   printed-book-link:  https://libros-de-la-voragine.sumupstore.com/producto/cancionero-para-deshumanos
   apple-store-link:
   kobo-store-link:
@@ -87,6 +89,8 @@
 
   cover: /assets/imgs/la_novia_lejana_cover.jpg
   slug: la-novia-lejana
+  book-excerpt-link: /assets/pdf/la_novia_lejana_excerpt.pdf
+
   printed-book-link: https://libros-de-la-voragine.sumupstore.com/producto/la-novia-lejana
   apple-store-link:
   kobo-store-link:
@@ -115,6 +119,7 @@
     «Si la tan manoseada frase “es una escritora nata” significa algo, Stella Benson lo es. Parece escribir con toda naturalidad, sin esfuerzo. Como un niño recoge flores [...] La fantasía exuberante es rara, el amor a la vida es raro, y un escritor que no se avergüence de la felicidad más raro todavía».—Katherine Mansfield.
 
   cover: /assets/imgs/la_casa_de_los_solitarios_cover.jpg
+  book-excerpt-link: /assets/pdf/la_casa_de_los_solitarios_excerpt.pdf
   slug: la-casa-de-los-solitarios
   printed-book-link:  https://libros-de-la-voragine.sumupstore.com/producto/la-casa-de-los-solitarios
   apple-store-link:
