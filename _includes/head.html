@@ -9,11 +9,14 @@
            {{ site.title | escape }}
          {%- endif -%}</title>
   <meta name="description"
-        content="{%- if page.excerpt -%}
-                   {{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}
-                 {%- else -%}
-                   {{ site.description }}
-                 {%- endif -%}">
+      content="{% if page.description %}
+                 {{ page.description | strip_html | strip_newlines | escape }}
+               {% elsif page.excerpt %}
+                 {{ page.excerpt | strip_html | strip_newlines | truncate: 160 | escape }}
+               {% else %}
+                 {{ site.description | strip_newlines | escape }}
+               {% endif %}">
+
 
     <link rel="stylesheet"
         href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
@@ -27,4 +30,65 @@
   <link rel="shortcut icon" type="image/png" sizes="16x16" href="/assets/imgs/favicon.ico">
 
   <script src="{{ '/assets/js/dropdown.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Libros de la vorágine",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description | strip_newlines | escape }}",
+  "sameAs": [
+    "{{ site.facebook_url }}",
+    "{{ site.twitter_url }}",
+    "{{ site.instagram_url }}",
+    "{{ site.bluesky_url }}"
+  ]
+}
+</script>
+
+{% if page.layout == "book-page" %}
+  {% assign books = site.data.books | where: "book", page.title %}
+  {% assign item = books[0] %}
+  {% if item %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "{{ item.book | escape }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ item.author | escape }}"
+  },
+  {% if item.translator and item.translator != "" %}
+  "translator": {
+    "@type": "Person",
+    "name": "{{ item.translator | escape }}"
+  },
+  {% endif %}
+  "inLanguage": "es",
+  "isbn": "{{ item.isbn | strip }}",
+  {% if item.pages_number %}
+  "numberOfPages": {{ item.pages_number | replace: ' páginas','' | strip }},
+  {% endif %}
+  "publisher": {
+    "@type": "Organization",
+    "name": "Libros de la vorágine"
+  },
+  "datePublished": "{{ item.release_date | default: '' }}",
+  "description": {{ item.description | strip_newlines | jsonify }},
+  "image": "{{ site.url }}{{ item.cover }}",
+  "offers": {
+    "@type": "Offer",
+    "price": "{{ item.price_print | default: item.PVP | replace:'€','' | replace:',','.' | strip }}",
+    "priceCurrency": "{{ item.price_currency | default: 'EUR' }}",
+    "availability": "https://schema.org/InStock",
+    "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+  }
+}
+</script>
+  {% endif %}
+{% endif %}
+
+  
 </head>
