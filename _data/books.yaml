@@ -1,5 +1,110 @@
 
 
+- book: 'Els rastres de la cançó'
+  book_subtitle:
+  author: 'Bruce Chatwin'
+  prologue: ''
+  translator: 'Ricard Vela'
+  illustrator: '«Watunuma» (1976), de Kaapa Mbitjana Tjampitjinpa'
+  isbn: '979-13-993026-0-8'
+  depósito legal: 
+  release_date: 'Noviembre de 2026'
+  price_currency: 'EUR'
+  price_print: '20,00 €'
+  PVP: '20,00 €'
+  PVP_ebook: ''
+  Printed_book_format: 'Medidas: 220 x 140 mm'
+  pages_number: '386'
+  ebook_format: ''
+  description: |-
+    En aquest llibre hi ha un rus que es diu Arkady, té trenta-tres anys i és fill d’un cosac que el 1942 va saltar d’un vagó en algun lloc d’Ucraïna i va aconseguir esmunyir-se entre les files enemigues. Després van venir una noia de Kíiv, un suburbi d’Adelaida, un alambí de vodka i tres fills. L’Arkady és el petit i es guanya la vida amb un ofici que només pot existir a Austràlia: indicar a una companyia ferroviària els llocs per on no pot passar la via d’un tren.
+
+    Perquè, per als aborígens, cada rierol i cada turó són una estrofa, i la cançó sencera un mapa que coincideix amb el territori, que és sagrat. I una cosa és convèncer un topògraf que uns còdols són els ous de la Serp de l’Arc de Sant Martí i una altra, de ben diferent, que un tram de grava és l’Opus 111 de Beethoven. A aquell desert hi va arribar Bruce Chatwin, el cognom del qual vol dir «sender sinuós» (o és el que jurava la seva tia Ruth), amb un munt de llibretes moleskine de París. En vint anys de viatges només n’havia perdut dues: en un autobús afganès i una altra confiscada per la secreta brasilera, que entenia que parlar de les nafres de Crist descrivia en clau el que els feien als presos polítics. I, a més, hi havia la gran pregunta, la que Pascal havia despatxat amb desconsol: per què no som capaços de quedar-nos quiets en una habitació? Pascal en culpava la nostra condició mortal. Chatwin sospitava una cosa més senzilla: un instint, com el dels ocells que migren a la tardor. La selecció natural, pensava, ens havia programat per travessar deserts caminant, i per això les praderies verdes ens avorreixen i l’habitació de Pascal s’assembla tant a una presó. I qui camina, canta: segons un tal professor Napier, el pas humà porta incorporat un compàs de quatre temps, i hi ha lingüistes que diuen que la primera llengua va ser una cançó. Davant d’una paleontòloga, Chatwin va sostenir que si li preguntaven per què serveix un cervell gros, diria que per obrir-nos camí cantant pel desert.
+
+    L’Arkady explica que, quan els seus vells aborígens arriben a una filera de dunes, es posen a cantar de sobte. Els pregunta què canten i li contesten que el país: l’estan fent aparèixer; i quan canten tots, apareix més de pressa. Els aborígens no creuen que una terra existeixi fins que algú l’ha cantada.
+
+    I aquest llibre no ha estat cantat en català fins després de gairebé quatre dècades de publicar-se.
+
+    «El seu llibre més valent fins ara».—The New York Times, 1987.
+  cover: /assets/imgs/els-rastres-de-la-canco.jpg
+  slug: els-rastres-de-la-canco
+  book-excerpt-link:
+  printed-book-link:
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link:
+  google-play-store-link:
+
+- book: 'Peer l’afortunat'
+  book_subtitle:
+  author: 'Hans Christian Andersen'
+  prologue: ''
+  translator: 'Esther Roma'
+  illustrator: ''
+  isbn: '979-13-993026-2-2'
+  depósito legal: 
+  release_date: 'Cuarto trimestre de 2026'
+  price_currency: 'EUR'
+  price_print: '16,50 €'
+  PVP: '16,50 €'
+  PVP_ebook: ''
+  Printed_book_format: 'Medidas: 190 x 120 mm'
+  pages_number: '132'
+  ebook_format: ''
+  description: |-
+    _Lykke-Peer_ és l’última gran obra de Hans Christian Andersen (1805-1875): la va escriure entre la primavera i l’estiu de 1870, en tornar d’un viatge de sis mesos per l’estranger, i l’editorial Reitzel la va publicar aquell mateix novembre. Andersen hi reprèn el tema d’Aladí, que sentia profundament lligat al seu destí i que havia tractat de maneres diverses als contes: la novel·la del geni escollit l’estrella del qual no para de pujar, explicada amb un realisme ple de colors vius.
+
+    És un llibre ric en trets autobiogràfics. L’amistat entre Peer, fill de pobres, i Fèlix, fill d’un ric comerciant, reflecteix la d’Andersen amb Edvard Collin, vista sota la llum gens idealitzada de la injustícia social. Les escenes de l’escola de ballet neixen dels seus anys al teatre, i el ménage del matrimoni Gabriel, explicat amb molt d’humor, és una reelaboració suavitzada del món sòrdid de Meisling a l’època dels seus estudis a Slagelse i Elsinor. A _Peer_, Andersen fa realitat els seus somnis teatrals: el triomf als escenaris on ell havia patit les derrotes més doloroses.
+
+    És la primera traducció al català de l’obra.
+  cover: /assets/imgs/peer-lafortunat.jpg
+  slug: peer-lafortunat
+  book-excerpt-link:
+  printed-book-link:
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link:
+  google-play-store-link:
+
+- book: 'El efecto de las mareas'
+  book_subtitle:
+  author: 'Jaume Benavente'
+  prologue: 'Marcela Rivera'
+  translator: 'Ricard Vela'
+  illustrator: 'Reinterpretación de «Mapa del Camino Real en Chile entre Valdivia y Chiloé» (1791), de Mariano de Pusterla'
+  isbn: '979-13-993026-1-5'
+  depósito legal: 
+  release_date: 'Noviembre de 2026'
+  price_currency: 'EUR'
+  price_print: '20,00 €'
+  PVP: '20,00 €'
+  PVP_ebook: ''
+  Printed_book_format: 'Medidas: 220 x 140 mm'
+  pages_number: '300'
+  ebook_format: ''
+  description: |-
+    Los alemanes, que tienen una palabra para todo, usan una para definir la enfermedad de la lejanía: _Fernweh_, pulsión inexplicable por huir, la nostalgia por los lugares en los que nunca hemos estado y también la necesidad física de abandonar el lugar que el mundo nos asigna. Jaume Benavente, un escritor catalán que pasea su melancolía por los confines del orbe, planta esta palabra en el corazón de _El efecto de las mareas_, que transcurre en el sur chileno, entre Valdivia y Chiloé, un paisaje hecho de lluvia incesante, selva fría y horizontes líquidos. Es la historia de un grupo de náufragos que, empujados por la marea invisible del azar, terminan recalando en el fin del mundo con la secreta esperanza de escapar de sí mismos y confundirse con el paisaje.
+
+    Lo que más estremece en _El efecto de las mareas_ es cómo nos cuenta la desaparición de las palabras y las identidades. En una librería valdiviana, un poema de la escritora mapuche Daniela Catrileo advierte que perder la lengua originaria es «como quien se apuñala a sí mismo / para salvarse». Esa orfandad la encarna Lihue Mailan, otro mapuche urbanizado que maneja una micro y padece el cinismo desolador de quien ha sido vaciado de sus mitos ancestrales. La lengua rota sobrevive apenas como una cicatriz intermitente: la palabra _Mawun_ (lluvia) tatuada en la muñeca de la inestable Gabriela, una marca que parece reaccionar a sus marejadas internas. Hasta los idiomas de los forasteros son espectros que se resisten al borrado: el gaélico que atesora la irlandesa Saoirse o el yidis oxidado de la madre de Serguei en la lejanía siberiana.
+
+    Benavente nos susurra que las mareas no están hechas solo de agua, sino también de tiempo y memoria. Son esa fuerza ciega que altera las rutinas, atrayendo a forasteros y expulsando a los seres queridos sin previo aviso, dejando tras de sí un vacío espectral. Ya sea huyendo de la violencia de Irlanda a golpe de remos, o escuchando voces incomprensibles a través de una radio en medio de la noche, cada personaje libra una batalla íntima contra el caos.
+
+    La novela es un bello tratado sobre la vulnerabilidad humana y la urgencia de una tregua. Frente a la fuerza implacable que disuelve nuestras certezas, a veces queda apenas sentarnos en la orilla, aceptar el misterio del caos y reaprender a respirar mientras aguardamos a que la marea vuelva a subir.
+
+    «Su estilo es siempre de orfebre, buscando los detalles, los matices... Exige al lector una lectura lenta para saborearlos».—Lluís Llort.
+
+    «Leer a Jaume Benavente es una gran aventura. Sabe crear personajes y atmósferas, tensa hábilmente el relato, a veces lo detiene, y, con la apariencia de normalidad de los grandes escritores, siempre nos muestra las profundas emociones que sacuden las vidas erráticas de los humanos».—Jordi Coca.
+
+    «Jaume se hermana con la divisa del infinito viajar de Claudio Magris, haciéndose parte de esa estirpe de narradores para los que vivir, viajar y escribir se tornan una sola y misma cosa, hebras de un mismo nudo».—Marcela Rivera.
+  cover: /assets/imgs/el-efecto-de-las-mareas.jpg
+  slug: el-efecto-de-las-mareas
+  book-excerpt-link:
+  printed-book-link:
+  apple-store-link:
+  kobo-store-link:
+  kindle-store-link:
+  google-play-store-link:
+
 - book: 'cancionero para deshumanos'
   book_subtitle:
   author: 'francisco de león'

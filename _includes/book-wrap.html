@@ -26,15 +26,19 @@
        {% include book-excerpt.html %}
     </div>
 
+    {% if item.printed-book-link %}
     <div class="card">
   {% include printed-book-button.html %}
     </div>
+    {% endif %}
 
     
 
+    {% if item.apple-store-link or item.kindle-store-link or item.kobo-store-link or item.google-play-store-link %}
     <div class="card">
   {% include ebook-buttons.html %}
     </div>
+    {% endif %}
 
   </div>
   <div class="column is-1">
