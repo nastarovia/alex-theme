@@ -1,8 +1,17 @@
 <div class="book-info-container is-size-7 has-text-weight-normal">
-          <p class="mb-0"><span class="has-text-weight-bold">Fecha de publicación: </span>{{ item.release_date }}</p>
-            <p class="mb-0">{{ item.pages_number }} páginas</p>
-              <p class="mb-0"><span class="has-text-weight-bold">ISBN:</span> {{ item.isbn }}</p>
-              <p class="mb-0"><span class="has-text-weight-bold">Traducido por: </span>{{ item.translator}}</p>
-              <p class="mb-0"><span class="has-text-weight-bold">En cubierta: </span>{{ item.illustrator}}</p>
-              <p class="mb-0"><span class="has-text-weight-bold">Prologo: </span>{{ item.prologue}}</p>
+  {%- if item.release_date %}<p class="mb-0"><span class="has-text-weight-bold">Fecha de publicación: </span>{{ item.release_date }}</p>{% endif %}
+  {%- if item.pages_number %}<p class="mb-0">{{ item.pages_number }} páginas</p>{% endif %}
+  {%- if item.Printed_book_format %}<p class="mb-0">{{ item.Printed_book_format }}</p>{% endif %}
+  {%- if item.isbn %}<p class="mb-0"><span class="has-text-weight-bold">ISBN:</span> {{ item.isbn }}</p>{% endif %}
+  {%- if item['depósito legal'] %}<p class="mb-0"><span class="has-text-weight-bold">Depósito legal:</span> {{ item['depósito legal'] }}</p>{% endif %}
+  {%- if item.original_title %}<p class="mb-0"><span class="has-text-weight-bold">Título original:</span> <em>{{ item.original_title }}</em>{% if item.original_year %} ({{ item.original_year }}){% endif %}</p>{% endif %}
+  {%- if item.translator and item.translator != "" %}
+    {%- assign t = item.translator | slice: 0, 6 %}
+    <p class="mb-0">{% if t == "Traduc" %}{{ item.translator }}{% else %}<span class="has-text-weight-bold">Traducción de </span>{{ item.translator }}{% endif %}</p>
+  {%- endif %}
+  {%- if item.prologue and item.prologue != "" %}
+    {%- assign p = item.prologue | slice: 0, 4 %}
+    <p class="mb-0">{% if p == "Pról" or p == "Posf" or p == "Post" or p == "Intr" or p == "Text" %}{{ item.prologue }}{% else %}<span class="has-text-weight-bold">Prólogo de </span>{{ item.prologue }}{% endif %}</p>
+  {%- endif %}
+  {%- if item.illustrator and item.illustrator != "" %}<p class="mb-0"><span class="has-text-weight-bold">En cubierta: </span>{{ item.illustrator }}</p>{% endif %}
 </div>

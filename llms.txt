@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+# Libros de la Vorágine
+
+> Editorial independiente fundada en 2011, con sede en Barcelona y presencia en Santiago de Chile. Publica sobre todo en castellano, y también en catalán, primeras traducciones de clásicos olvidados, ensayo y ficción literaria, en ediciones cuidadas y accesibles. Distribución en España: La Sombra de Caín. Contacto: {{ site.email }}.
+
+Cada libro tiene una ficha en {{ site.url }}/libros/<slug>/ con sinopsis, datos de edición (ISBN, páginas, formato, precio, fecha) y, cuando las hay, citas de crítica con su fuente.
+
+## Catálogo
+{% assign libros = site.data.books | sort: "release_iso" | reverse %}{% for b in libros %}
+- [{{ b.book }}]({{ site.url }}/libros/{{ b.slug }}/): {{ b.author }}{% if b.translator_names.size > 0 %}; traducción de {{ b.translator_names | join: " y " }}{% endif %}. {% if b.lang == "ca" %}En catalán. {% endif %}{% if b.original_title %}Título original: {{ b.original_title }}{% if b.original_year %} ({{ b.original_year }}){% endif %}. {% endif %}ISBN {{ b.isbn }}.{% if b.release_date %} Publicación: {{ b.release_date }}.{% endif %}{% endfor %}
+
+## Más información
+- [Catálogo en PDF]({{ site.url }}/assets/pdf/catalogo.pdf)
+- [Quiénes somos]({{ site.url }}/about/)
+- [Distribución]({{ site.url }}/distribucion/)

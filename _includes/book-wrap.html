@@ -19,6 +19,16 @@
        
     
           <p class="has-text-justified is-size-5 is-margin-1-mobile">{{ item.description | markdownify }}</p>
+          {% if item.reviews %}
+          <div class="book-reviews">
+            {% for r in item.reviews %}
+            <blockquote class="is-size-6 mt-4">
+              <p>«{{ r.text }}»</p>
+              <p class="is-size-7">— {{ r.author }}{% if r.source %}, <cite>{{ r.source }}</cite>{% endif %}{% if r.date %}, {{ r.date }}{% endif %}</p>
+            </blockquote>
+            {% endfor %}
+          </div>
+          {% endif %}
   </div>
   <div class="column is-2 ">
 
