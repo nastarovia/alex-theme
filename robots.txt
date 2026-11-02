@@ -1,0 +1,10 @@
+# robots.txt de librosdelavoragine.com
+# Se permite el acceso a todos los rastreadores, incluidos los de buscadores
+# con IA (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended…),
+# para que las fichas de los libros puedan citarse en sus respuestas.
+# Para excluir a alguno, añadir un bloque «User-agent: <nombre>» con «Disallow: /».
+
+User-agent: *
+Allow: /
+
+Sitemap: https://librosdelavoragine.com/sitemap.xml

@@ -35,14 +35,21 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Libros de la vorágine",
+  "@id": "{{ site.url }}/#editorial",
+  "name": "Libros de la Vorágine",
   "url": "{{ site.url }}",
-  "description": "{{ site.description | strip_newlines | escape }}",
+  "logo": "{{ site.url }}/assets/imgs/logo_ldlvoragine_ok.png",
+  "foundingDate": "2011",
+  "email": "{{ site.email }}",
+  "description": {{ site.description | strip_newlines | jsonify }},
+  "location": [
+    {"@type": "Place", "name": "Barcelona, España"},
+    {"@type": "Place", "name": "Santiago de Chile, Chile"}
+  ],
   "sameAs": [
-    "{{ site.facebook_url }}",
-    "{{ site.twitter_url }}",
-    "{{ site.instagram_url }}",
-    "{{ site.bluesky_url }}"
+    {%- assign primero = true -%}
+    {%- for u in site.sameas -%}{%- unless primero %},{% endunless %}
+    "{{ u }}"{%- assign primero = false -%}{%- endfor %}
   ]
 }
 </script>
@@ -51,44 +58,46 @@
   {% assign books = site.data.books | where: "book", page.title %}
   {% assign item = books[0] %}
   {% if item %}
+  {% capture hoy %}{{ site.time | date: "%Y-%m-%d" }}{% endcapture %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Book",
-  "name": "{{ item.book | escape }}",
-  "author": {
-    "@type": "Person",
-    "name": "{{ item.author | escape }}"
-  },
-  {% if item.translator and item.translator != "" %}
-  "translator": {
-    "@type": "Person",
-    "name": "{{ item.translator | escape }}"
-  },
-  {% endif %}
-  "inLanguage": "es",
+  "@id": "{{ page.url | prepend: site.url }}#libro",
+  "name": {{ item.book | jsonify }},
+  {% if item.book_subtitle %}"alternativeHeadline": {{ item.book_subtitle | jsonify }},{% endif %}
+  "author": {"@type": "Person", "name": {{ item.author | jsonify }}},
+  {% if item.translator_names.size > 0 %}"translator": [{% for t in item.translator_names %}{"@type": "Person", "name": {{ t | jsonify }}}{% unless forloop.last %}, {% endunless %}{% endfor %}],{% endif %}
+  {% if item.prologue and item.prologue != "" %}"contributor": {{ item.prologue | jsonify }},{% endif %}
+  {% if item.illustrator and item.illustrator != "" %}"creditText": {{ item.illustrator | prepend: "En cubierta: " | jsonify }},{% endif %}
+  "inLanguage": "{{ item.lang | default: 'es' }}",
+  {% if item.original_title %}"translationOfWork": {"@type": "Book", "name": {{ item.original_title | jsonify }}{% if item.original_lang %}, "inLanguage": "{{ item.original_lang }}"{% endif %}{% if item.original_year %}, "datePublished": "{{ item.original_year }}"{% endif %}},{% endif %}
   "isbn": "{{ item.isbn | strip }}",
-  {% if item.pages_number %}
-  "numberOfPages": {{ item.pages_number | replace: ' páginas','' | strip }},
-  {% endif %}
-  "publisher": {
-    "@type": "Organization",
-    "name": "Libros de la vorágine"
-  },
-  "datePublished": "{{ item.release_date | default: '' }}",
-  "description": {{ item.description | strip_newlines | jsonify }},
+  "bookFormat": "https://schema.org/Paperback",
+  {% assign np = item.pages_number | strip | plus: 0 %}{% if np > 0 %}"numberOfPages": {{ np }},{% endif %}
+  "publisher": {"@id": "{{ site.url }}/#editorial", "@type": "Organization", "name": "Libros de la Vorágine"},
+  {% if item.release_iso %}"datePublished": "{{ item.release_iso }}",{% endif %}
+  "description": {{ item.description | markdownify | strip_html | normalize_whitespace | strip | jsonify }},
   "image": "{{ site.url }}{{ item.cover }}",
+  "url": "{{ page.url | prepend: site.url }}",
+  {% if item.reviews %}"review": [{% for r in item.reviews %}{
+    "@type": "Review",
+    "author": {"@type": "Person", "name": {{ r.author | jsonify }}},
+    {% if r.source %}{% assign s = r.source | downcase %}{% unless s contains "prólogo" or s contains "introducción" or s contains "texto" %}"publisher": {"@type": "Organization", "name": {{ r.source | jsonify }}},{% endunless %}{% endif %}
+    "reviewBody": {{ r.text | jsonify }}
+  }{% unless forloop.last %},{% endunless %}{% endfor %}],{% endif %}
+  {% assign precio = item.price_print | default: item.PVP | default: item.PVP_euros | replace:'€','' | replace:',','.' | strip %}
   "offers": {
     "@type": "Offer",
-    "price": "{{ item.price_print | default: item.PVP | replace:'€','' | replace:',','.' | strip }}",
+    {% if precio != "" %}"price": "{{ precio }}",{% endif %}
     "priceCurrency": "{{ item.price_currency | default: 'EUR' }}",
-    "availability": "https://schema.org/InStock",
-    "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+    {% if item.release_iso and item.release_iso > hoy %}"availability": "https://schema.org/PreOrder",
+    "availabilityStarts": "{{ item.release_iso }}",{% else %}"availability": "https://schema.org/InStock",{% endif %}
+    "url": "{{ page.url | prepend: site.url }}"
   }
 }
 </script>
   {% endif %}
 {% endif %}
 
-  
 </head>
